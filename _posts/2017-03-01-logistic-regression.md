@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logistic Regression의 Gradient descent 공식 유도
-comments: false
+comments: true
 excerpt: Logistic Regression의 Gradient descent 공식 유도
 permalink: logistic-regression
 ---
