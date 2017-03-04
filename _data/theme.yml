@@ -19,10 +19,11 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-title: Yet another tech blog.
-description: Tech blog about web development, computer graphics, actually anything about programming.
+title: H. AN
+description: The archive of my programming and reading.
 name: Hyounggap An
 email: hyounggap.an@gmail.com
+keywords: Web Development, Machine Learning, Computer Graphics, Book Review, 웹개발, 머신러닝, 컴퓨터 그래픽스, 책 리뷰
 #tagline: "weak opinions, strongly held"
 
 # Google Analytics key, leave blank to ignore
