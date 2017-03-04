@@ -3,7 +3,6 @@ layout: post
 title: AWS에서 Redis 설치 및 데몬으로 설정하기
 comments: true
 excerpt: Install Redis on AWS and run as daemon
-permalink: redis-on-aws
 ---
 레디스를 aws에 설치하고, 단순히 redis-server를 실행해서 서버를 구동시킬 수 있지만, 좀 더 정교하게 설치할 수 있는 방법에 대해서 알아본다.
 

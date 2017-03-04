@@ -3,7 +3,6 @@ layout: post
 title: Mysql Transaction & Delete - stackoverflow 요약
 comments: true
 excerpt: Mysql Transaction & Delete threads translated to Korean
-permalink: mysql-delete
 ---
 DB에 임시적으로 생성되는 레코드들이 있고, 이 레코드들은 처리가 된 이후에 다시 쓰이지 않게 되는 성격이라 디스크 용량 확보를 위해 지워야 했다. 하루에 지워야할 데이터 양이 약 1.5백만개 정도로 잡았더니 생각할 점들이 있었다.  
 

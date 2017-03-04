@@ -3,7 +3,6 @@ layout: post
 title: 먹고, 쏘고, 튄다. 리뷰(Review of Eats, shoots and leaves)
 comments: true
 excerpt: review of Eats, shoots and leaves
-permalink: book-review-eats-shoots-and-leaves
 ---
 저번에 '완벽한 공부법'을 읽고 난 후 영어를 잘하려면 아직 멀었구나라는 생각이 들게 됐다. 책에서 추천하는 책들을 찾아서 읽어보기로 했다. '원서 잡아먹는 영작문', '먹고, 쏘고, 튄다' 일단 두 권을 샀는데 후자가 제목이 더 재밌고 쉽게 읽을 수 있을 것 같고, 영작문을 실제로 하면서 책을 보면 오래 걸릴 것 같아서 '먹고, 쏘고, 튄다'를 먼저 읽기로 했다.
 

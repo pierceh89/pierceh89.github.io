@@ -3,7 +3,6 @@ layout: post
 title: Coordinate Transformation
 comments: true
 excerpt: How to transform from one coordinate to another coordinate
-permalink: coord-transform
 ---
 
 This post is about coordinate transformations which I was confused with so much!

@@ -124,6 +124,12 @@
 		max-width: 100%;
 		height: auto; }
 
+	img.scale-with-grid-center {
+	max-width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto; }
+
 
 /* #Buttons
 ================================================== */

@@ -3,7 +3,6 @@ layout: post
 title: Logistic Regression의 Gradient descent 공식 유도
 comments: true
 excerpt: Logistic Regression의 Gradient descent 공식 유도
-permalink: logistic-regression
 ---
 2년 전에 Coursera에 개설된 머신러닝 코스를 들었는데, 업무에 인공지능을 적용해보려고 머신러닝을 복습하고 있다. 요즘 '딥러닝 첫걸음'이라는 책을 읽고 있는데, 식 표기나 공식 유도 방식이 달라서 헷갈려서 기억을 더듬어서 공식을 유도해봤다. 거의 다 잊어버려서 생각보다 시간이 걸렸기 때문에 기록 차원에서 남겨두려고 한다.
 
