@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: rouge
-url: http://pierceh89.github.io
+url: https://pierceh89.github.io
 lsi: false
 pages_list:       
   About: '/about'
