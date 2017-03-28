@@ -5,3 +5,5 @@ lsi: false
 pages_list:       
   About: '/about'
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+gems:
+  - jekyll-sitemap
