@@ -1,8 +1,9 @@
 # General Jekyll Config
 highlighter: rouge
 url: https://pierceh89.github.io
+repository: https://github.com/pierceh89/lagom.git
 lsi: false
-pages_list:       
+pages_list:
   About: '/about'
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 gems:
