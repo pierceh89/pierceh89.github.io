@@ -1,7 +1,8 @@
 # General Jekyll Config
 highlighter: rouge
 url: https://pierceh89.github.io
-repository: https://github.com/pierceh89/lagom.git
+github: [metadata]
+repository: pierceh89/pierceh89.github.io
 lsi: false
 pages_list:
   About: '/about'
