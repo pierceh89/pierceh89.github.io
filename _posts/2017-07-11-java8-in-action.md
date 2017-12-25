@@ -4,7 +4,7 @@ title: 자바 8을 얼른 적용해보고 싶다면, Java8 in action
 comments: true
 ---
 
-![Java8 in action cover]({{ site.url }}/assets/java8_in_action_1.jpg){:class="scale-with-grid-center"}
+![Java8 in action cover]({{ site.url }}/assets/img/java8_in_action_1.jpg){:class="scale-with-grid-center"}
 
 자바 9이 나온지 수개월이 지나가는 시점에 자바 8을 리뷰하고 있는게 좀 우스울수도 있지만, 리뷰를 해보려고 한다. 자바 9이 나온지 아직 시간이 많이 지난것이 아니라서 프로덕션 런타임으로 결정하기엔 시기상조라고 본다. 그래서 지금이라도 자바 8을 살펴보는 사람들에게 이 리뷰가 도움이 됐으면 한다.  
 

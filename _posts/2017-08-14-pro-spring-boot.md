@@ -5,8 +5,8 @@ comments: true
 ---
 
 <center>
-<img src="{{ site.url }}/assets/pro_spring_boot_1.jpg" style="display: inline;" height="359" alt="Pro Spring Boot, 이랬던 책의 표지가" />
-<img src="{{ site.url }}/assets/스프링부트_워크북_1.jpg" style="display: inline;" width="280" alt="실전 스프링 부트 워크북, 이렇게 바뀌었다." />
+<img src="{{ site.url }}/assets/img/pro_spring_boot_1.jpg" style="display: inline;" height="359" alt="Pro Spring Boot, 이랬던 책의 표지가" />
+<img src="{{ site.url }}/assets/img/스프링부트_워크북_1.jpg" style="display: inline;" width="280" alt="실전 스프링 부트 워크북, 이렇게 바뀌었다." />
 </center>
 
 

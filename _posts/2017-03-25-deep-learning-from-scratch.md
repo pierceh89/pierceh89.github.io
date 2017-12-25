@@ -10,13 +10,13 @@ comments: true
 
 이 책은 입문서로서는 상당히 자세하게 이론에 대해서 설명하고 있다. 특히, 6장에서는 학습 관련 기술들을 소개하고 있는데 매개변수 최적화 방법(SGD, Momentum, AdaGrad, Adam), 매개변수 초기화 방법(Xavier, He method), 오버피팅 방지법(Weight decay, drop-out), 하이퍼파라미터 최적화 방법 네가지로 분류하여 직관적으로 이해할 수 있도록 설명하고 있다. 더 구체적인 설명은 레퍼런스 논문들을 참고하면 될 것 같다.  
 
-![매개변수 최적화 방식 비교]({{ site.url }}/assets/밑바닥부터시작하는딥러닝_2.jpg){:class="scale-with-grid-center"}
+![매개변수 최적화 방식 비교]({{ site.url }}/assets/img/밑바닥부터시작하는딥러닝_2.jpg){:class="scale-with-grid-center"}
 
 가장 마음에 들었던 챕터는 5장이다. Backpropagation 방법을 그래프 계산으로 설명하고 있는데 편미분으로 식을 유도하는 것보다 쉽고 재미있었다. 식이 복잡해도 '국소적 연산'이라는 것에 주목하면 Backpropagation을 쉽게 유도해낼 수 있다는 것이 인상적이었다. TensorFlow의 신경망은 TensorBoard를 통해 시각화하여 확인할 수 있는데, 이 신경망의 모습이 Graph 계산식의 모습과 유사했다. 이 둘을 비교하며 공부하면 더 재미있을 것이다.
 
-![그래프 계산식 예제]({{ site.url }}/assets/밑바닥부터시작하는딥러닝_1.jpg){:class="scale-with-grid-center"}  
+![그래프 계산식 예제]({{ site.url }}/assets/img/밑바닥부터시작하는딥러닝_1.jpg){:class="scale-with-grid-center"}  
 
-![TensorBoard를 통해 시각화한 신경망]({{ site.url }}/assets/밑바닥부터시작하는딥러닝_3.jpg){:class="scale-with-grid-center"}  
+![TensorBoard를 통해 시각화한 신경망]({{ site.url }}/assets/img/밑바닥부터시작하는딥러닝_3.jpg){:class="scale-with-grid-center"}  
 
 마지막 장인 8장에서는 Vision분야의 응용기술 및 최신 머신러닝 트렌드를 소개한다. 학습자와 평가자 두 모델을 경쟁적으로 학습시키는 기술(DCGAN)이 인상적이었다. 예제로 침실 이미지를 생성해주는 신경망이 나왔는데, 실제로 존재하는 장소라고 믿을만큼 그럴듯한 결과가 나왔다. 기존 머신러닝에서 허들이 되는 부분 중 하나가 대량의 정답셋 생성이었는데, 이 분야가 잘 연구된다면 머신러닝이 더 부흥하게 될 것 같다.  
 

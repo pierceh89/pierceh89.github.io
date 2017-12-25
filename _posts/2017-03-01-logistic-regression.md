@@ -34,11 +34,14 @@ $$\mathbf{w} := \mathbf{w} - \alpha\frac{\partial}{\partial \mathbf{w}}J(\mathbf
 
 결론부터 말하면, $$ \frac{\partial}{\partial \mathbf{w}}J(\mathbf{w}) $$는 선형회귀에서 사용하는 업데이트 식과 모양이 같이 나온다. $$\mathbf{w}$$의 j번째 요소에 대해서 변화량을 살펴보자.
 
-$$ \frac{\partial}{\partial \mathbf{w}_j}J(\mathbf{w}) = \frac{\partial}{\partial \mathbf{w}_j} - \frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}}log(h(\mathbf{x^{(i)}})) + (1-\mathbf{y^{(i)}})log(1-h(\mathbf{x^{(i)}})) \bigg) \\
-= -\frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}}\frac{\partial}{\partial \mathbf{w}_j}log(h(\mathbf{x^{(i)}})) + (1-\mathbf{y^{(i)}})\frac{\partial}{\partial \mathbf{w}_j}log(1-h(\mathbf{x^{(i)}}) \bigg)  \\
-= -\frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}}\frac{h'(\mathbf{x^{(i)}})}{h(\mathbf{x^{(i)}})} \frac{\partial}{\partial \mathbf{w}_j} \mathbf{w}^T\mathbf{x}^{(i)} + (1-\mathbf{y^{(i)}})\frac{-h'(\mathbf{x^{(i)}})}{1-h(\mathbf{x^{(i)}})} \frac{\partial}{\partial \mathbf{w}_j} \mathbf{w}^T\mathbf{x}^{(i)} \bigg) \\
-= -\frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}} \frac{h(\mathbf{x^{(i)}})(1-h(\mathbf{x^{(i)}}))}{h(\mathbf{x^{(i)}})} \mathbf{x}^{(i)}_j + (1-\mathbf{y^{(i)}}) \frac{-h(\mathbf{x^{(i)}})(1-h(\mathbf{x^{(i)}}))}{1-h(\mathbf{x^{(i)}})} \mathbf{x}^{(i)}_j \bigg) \\
-= \frac{1}{m}\sum_{i=1}^{m} ( h(\mathbf{x}^{(i)}) - \mathbf{y^{(i)}} ) \mathbf{x}^{(i)}_j
+$$
+\begin{aligned}
+	\frac{\partial}{\partial \mathbf{w}_j}J(\mathbf{w}) &= \frac{\partial}{\partial \mathbf{w}_j} - \frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}}log(h(\mathbf{x^{(i)}})) + (1-\mathbf{y^{(i)}})log(1-h(\mathbf{x^{(i)}})) \bigg) \\
+ 	&= -\frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}}\frac{\partial}{\partial \mathbf{w}_j}log(h(\mathbf{x^{(i)}})) + (1-\mathbf{y^{(i)}})\frac{\partial}{\partial \mathbf{w}_j}log(1-h(\mathbf{x^{(i)}}) \bigg) \\
+	&= -\frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}}\frac{h'(\mathbf{x^{(i)}})}{h(\mathbf{x^{(i)}})} \frac{\partial}{\partial \mathbf{w}_j} \mathbf{w}^T\mathbf{x}^{(i)} + (1-\mathbf{y^{(i)}})\frac{-h'(\mathbf{x^{(i)}})}{1-h(\mathbf{x^{(i)}})} \frac{\partial}{\partial \mathbf{w}_j} \mathbf{w}^T\mathbf{x}^{(i)} \bigg) \\
+	&= -\frac{1}{m}\sum_{i=1}^{m} \bigg( \mathbf{y^{(i)}} \frac{h(\mathbf{x^{(i)}})(1-h(\mathbf{x^{(i)}}))}{h(\mathbf{x^{(i)}})} \mathbf{x}^{(i)}_j + (1-\mathbf{y^{(i)}}) \frac{-h(\mathbf{x^{(i)}})(1-h(\mathbf{x^{(i)}}))}{1-h(\mathbf{x^{(i)}})} \mathbf{x}^{(i)}_j \bigg) \\
+	&= \frac{1}{m}\sum_{i=1}^{m} ( h(\mathbf{x}^{(i)}) - \mathbf{y^{(i)}} ) \mathbf{x}^{(i)}_j \\
+\end{aligned}
 $$
 
 이 식을 벡터 $$\mathbf{w}$$에 대해서 다시 써주면 다음과 같다:
