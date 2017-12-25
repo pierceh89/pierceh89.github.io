@@ -4,7 +4,7 @@ title: 피해갈 수 없는 디버깅을 도와주는 전략서, Effective Debug
 comments: true
 ---
 
-![Effective Debugging cover]({{ site.url }}/assets/effective_debugging_1.jpg){:class="scale-with-grid-center"}
+![Effective Debugging cover]({{ site.url }}/assets/img/effective_debugging_1.jpg){:class="scale-with-grid-center"}
 
 애플리케이션 개발에서 디버깅은 뗄 수 없는 과정이다. 단순한 오타에서 숨어있는 로직 오류까지.. 생각만 해도 골치가 아프다. 학부에서 비주얼 스튜디오에서 C언어로 과제를 구현할 땐 디버거를 쓸 줄 몰라서 printf로 변수값을 하나씩 찍고, 손으로 결과를 계산해보면서 디버깅을 했었다. Java, Javascript 등 다른 언어로 개발을 하면 그 언어에 맞는 도구를 이용해서 디버깅을 했었다. 디버깅을 누구에게 배운게 아니라 시간을 많이 허비한 적도 있고, 몰라서 유용한 도구를 적절히 쓰지 못한 경험도 많다. 그래서 이 책이 나와서 너무 반가웠다.  
 
