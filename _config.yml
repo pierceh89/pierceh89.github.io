@@ -1,0 +1,55 @@
+title: Seeking good practices
+author: Hyounggap An
+email: hyounggap.an@gmail.com
+description: > # this means to ignore newlines until "twitter_username:"
+  머신러닝, 자연어처리 등 소프트웨어를 개발하면서 배운 경험을 공유하는 블로그입니다.
+
+# social links
+# twitter_username: jekyllrb
+github_username:  pierceh89
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: hyounggap-an-4991538a
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+disqus:
+  shortname: pierceh89
+
+google_analytics: UA-73592063-3
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# pagination
+enable_paginate: true
+paginate: 5
+paginate_path: "/page:num/"
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# changed to the order of largest to smallest units
+minima:
+  date_format: "%Y %b %-d"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
