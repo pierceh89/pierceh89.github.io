@@ -9,7 +9,8 @@ regenerate: true
 
 ## wiki items
 
-* [[mathjax-latex]]
+* [[logistic-regression]]
+* [[Coordinate-Transformation]]
 
 ---
 
