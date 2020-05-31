@@ -6,7 +6,9 @@
 
     <meta name="description" content="{{ page.summary }}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
@@ -63,18 +65,51 @@
 
 </head>
 <header class="header">
-    <div>
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
-    <div>
-        <a class="site-title-right" href="/about/">me</a>
-    </div>
-    <div>
-        <a id="random-button" class="site-title-right" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
-    </div>
-    <div>
-        <a class="site-title-right" href="/wiki/index/">wiki</a>
-    </div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				{% if page.url=='/wiki/index/' %}
+				<li class="nav-item active">
+				{% else %}
+				<li class="nav-item">
+				{% endif %}
+					<a class="nav-link" href="/wiki/index/">wiki</a>
+				</li>
+				{% if page.url contains '/blog/' %}
+				<li class="nav-item active">
+				{% else %}
+				<li class="nav-item">
+				{% endif %}
+					<a class="nav-link" href="/blog/">blog</a>
+				</li>
+				<li class="nav-item">
+					<a id="random-button" class="nav-link" href="/wiki/index/#random" onClick="if(typeof random === 'function')random()">random</a>
+				</li>
+				{% if page.url=='/tag/' %}
+				<li class="nav-item active">
+				{% else %}
+				<li class="nav-item">
+				{% endif %}
+					<a class="nav-link" href="/tag/">tag</a>
+				</li>
+				{% if page.url=='/about/' %}
+				<li class="nav-item active">
+				{% else %}
+				<li class="nav-item">
+				{% endif %}
+					<a class="nav-link" href="/about">me</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0" method="get" action="/search/">
+				 <input name="searchString" class="form-control mr-sm-2" placeholder="검색하세요" type="text">
+				 <input type="submit" class="btn btn-outline-success" value="Search">
+			</form>
+		</div>
+</nav>
 </header>
 <script>
 ;(function(){

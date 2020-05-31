@@ -115,11 +115,11 @@ ul.tag-list {
     overflow: hidden;
 
     li {
-        float: left;
+        margin-bottom: 5px;
+		margin-right: 5px;
     }
 
     li a {
-        padding-right: 5px;
         text-decoration: none;
     }
 }
@@ -161,66 +161,8 @@ ul.tag-list {
     display: none;
 }
 
-.pagination {
-    text-align:center;
-
-    a {
-        font-size: 1em;
-        margin: 2px;
-        padding: 2px;
-        text-decoration: none;
-        border-radius: 10px;
-        border: 0px solid $theme-color;
-        background-color: $theme-color;
-        color: #FFFFFF;
-    }
-
-    a.active {
-        border: 0px solid transparent;
-        background-color: transparent;
-        color: #000000;
-    }
-}
-
-.pagination li {
-    display: inline-block;
-}
 .tag-list li {
     display: inline-block;
-}
-
-div.search {
-    background-color: #f6f5ea;
-    width: 100%;
-    position: relative;
-    border-bottom: 1px solid $theme-color;
-    line-height: 1;
-}
-.searchInput {
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: relative;
-    padding: 0px;
-    padding-left: 5px;
-    border: 0px;
-    margin: 0px;
-    font-size: 13px;
-    direction: ltr;
-    -webkit-appearance: textfield;
-    border-radius: 0px;
-}
-
-.searchButton {
-    border: 0px;
-    border-radius: 0px;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    z-index: 2;
 }
 
 .post-header {
@@ -230,6 +172,12 @@ div.search {
     p {
         margin: 0;
     }
+}
+
+.post-content {
+	h2 {
+		padding-bottom: 5px;
+	}
 }
 
 .post-excerpt {

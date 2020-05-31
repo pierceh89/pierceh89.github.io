@@ -14,14 +14,6 @@
     url: /blog/2017/02/26/book-review-esal
     updated: '2017-02-26 12:17:00 +0900'
     children: []
-2017-03-01-logistic-regression:
-    type: blog
-    title: 'Logistic Regression의 Gradient descent 공식 유도'
-    summary: ""
-    parent: null
-    url: /blog/2017/03/01/logistic-regression
-    updated: '2017-03-01 12:20:00 +0900'
-    children: []
 2017-03-04-book-review-deep-learning-beginner:
     type: blog
     title: '딥러닝/머신러닝 독학의 시작, 딥러닝 첫걸음 리뷰'
@@ -102,14 +94,6 @@
     url: /blog/2017/08/14/pro-spring-boot
     updated: '2017-08-14 12:34:00 +0900'
     children: []
-2017-09-19-react-learning-links:
-    type: blog
-    title: 'React리액트 관련 링크 모음'
-    summary: ""
-    parent: null
-    url: /blog/2017/09/19/react-learning-links
-    updated: '2017-09-19 12:35:00 +0900'
-    children: []
 2017-12-18-network-beginner:
     type: blog
     title: '손으로 익히며 배우는 네트워크 첫걸음 리뷰'
@@ -158,22 +142,22 @@
     url: /blog/2019/04/12/win-java-dev
     updated: '2019-04-12 13:04:00 +0900'
     children: []
+computer-graphics:
+    type: wiki
+    title: 'Computer Graphics'
+    summary: null
+    parent: index
+    url: /wiki/computer-graphics
+    updated: '2020-05-31 19:35:17 +0900'
+    children: [Coordinate-Transformation]
 Coordinate-Transformation:
     type: wiki
     title: 'Coordinate Transformation'
     summary: null
-    parent: how-to
+    parent: computer-graphics
     url: /wiki/Coordinate-Transformation
-    updated: '2020-05-31 13:34:34 +0900'
+    updated: '2020-05-31 13:50:32 +0900'
     children: []
-how-to:
-    type: wiki
-    title: 'HOW TO'
-    summary: null
-    parent: index
-    url: /wiki/how-to
-    updated: '2018-02-04 15:57:05 +0900'
-    children: [Coordinate-Transformation, mathjax-latex]
 index:
     type: wiki
     title: wiki
@@ -182,11 +166,19 @@ index:
     url: /wiki/index
     updated: null
     children: []
-mathjax-latex:
+logistic-regression:
     type: wiki
-    title: 'MathJax로 LaTeX 사용하기'
-    summary: null
-    parent: how-to
-    url: /wiki/mathjax-latex
-    updated: '2019-11-04 22:13:47 +0900'
+    title: 'Logistic Regression의 Gradient descent 공식 유도'
+    summary: ""
+    parent: machine-learning
+    url: /wiki/logistic-regression
+    updated: '2020-05-31 13:57:18 +0900'
     children: []
+machine-learning:
+    type: wiki
+    title: 'Machine Learning'
+    summary: null
+    parent: index
+    url: /wiki/machine-learning
+    updated: '2020-05-31 19:35:32 +0900'
+    children: [logistic-regression]
