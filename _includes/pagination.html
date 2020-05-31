@@ -57,14 +57,14 @@
     {% assign links = links | push: pageData %}
 {% endif %}
 
-<div class="pagination">
-    <ul>
-        <li>
+<div class="container">
+    <ul class="pagination justify-content-center">
 {% if page.url == '/blog/' %}
-            <a href="/blog">^</a>
+        <li class="page-item disabled">
 {% else %}
-            <a href="/blog" class="active">^</a>
+		<li class="page-item">
 {% endif %}
+            <a class="page-link" href="/blog">Begin</a>
         </li>
 
 {% for pageData in links %}
@@ -77,20 +77,21 @@
     {% if link == site.url %}
         {% assign link = '/' %}
     {% endif %}
-        <li class="page_number">
     {% if link == '' %}
-            <a>{{ label }}</a>
+        <li class="page-item active">
+            <a class="page-link">{{ label }}</a>
     {% else %}
-            <a href="/blog{{ link }}" class="active">{{ label }}</a>
+		<li class="page-item">
+            <a class="page-link" href="/blog{{ link }}">{{ label }}</a>
     {% endif %}
         </li>
 {% endfor%}
-        <li>
 {% if current == paginator.total_pages %}
-            <a href="/blog/page{{ paginator.total_pages }}">$</a>
+        <li class="page-item disabled">
 {% else %}
-            <a href="/blog/page{{ paginator.total_pages }}" class="active">$</a>
+		<li class="page-item">
 {% endif %}
+            <a class="page-link" href="/blog/page{{ paginator.total_pages }}">End</a>
         </li>
     </ul>
 </div>

@@ -5,34 +5,28 @@ regenerate: true
 ---
 
 <div class="blog-face">
-    <div>
-        <H3>
+    <div class="jumbotron">
+        <h1>
             <a href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
             +
             <a href="https://jekyllrb.com/">Jekyll</a>
             +
             <a href="https://pages.github.com/">Github.io</a>
-        </H3>
-    </div>
-        기억 보조용 위키
-    <div>
-    </div>
-    <div>
-        <a href="/blog/">블로그</a>
-        /
-        <a href="/tag/">태그</a>
-    </div>
-    <div class="contact">
-{% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-{% endif %}
-{% if site.twitter_username %}
-        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
-{% endif %}
-{% if site.email %}
-        <a href="mailto:{{ site.email }}">Email</a>
-{% endif %}
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        </h1>
+		<hr class="my-4">
+		<h3>위키 위키</h3>
+		<div class="contact">
+	{% if site.github_username %}
+			<a class="btn btn-primary" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-2x"></i></a>
+	{% endif %}
+	{% if site.twitter_username %}
+			<a class="btn btn-primary" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-2x"></i></a>
+	{% endif %}
+	{% if site.email %}
+			<a class="btn btn-primary" href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x"></i></a>
+	{% endif %}
+			<a class="btn btn-primary" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss fa-2x"></i></a>
+		</div>
     </div>
 </div>
 <div>

@@ -27,7 +27,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-paginate: 10
+paginate: 10 
 paginator_path: "/blog"
 paginate_path: "/blog/page:num/"
 
