@@ -10,9 +10,9 @@ public: true
 <div>
     <ul class="tag-list">
 {% for tag in tagList %}
-        <li class="btn btn-outline-dark">
-            <a href="#{{tag}}" onclick="showTag('#{{tag}}')">
-                {{tag}}&nbsp;<span class="badge badge-primary">{{ tagMap[tag] | size }}</span>
+        <li>
+            <a href="#{{tag}}" class="btn btn-outline-dark" onclick="showTag('#{{tag}}')">
+                {{tag}}&nbsp;<span class="badge badge-dark">{{ tagMap[tag] | size }}</span>
             </a>
         </li>
 {% endfor %}
