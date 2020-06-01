@@ -7,25 +7,25 @@ regenerate: true
 <div class="blog-face">
     <div class="jumbotron">
         <h1>
-            <a href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
+            <a class="text-dark" href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
             +
-            <a href="https://jekyllrb.com/">Jekyll</a>
+            <a class="text-dark" href="https://jekyllrb.com/">Jekyll</a>
             +
-            <a href="https://pages.github.com/">Github.io</a>
+            <a class="text-dark" href="https://pages.github.com/">Github.io</a>
         </h1>
 		<hr class="my-4">
 		<h3>위키 위키</h3>
 		<div class="contact">
 	{% if site.github_username %}
-			<a class="btn btn-primary" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-2x"></i></a>
+			<a class="btn btn-dark" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-2x"></i></a>
 	{% endif %}
 	{% if site.twitter_username %}
-			<a class="btn btn-primary" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-2x"></i></a>
+			<a class="btn btn-dark" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-2x"></i></a>
 	{% endif %}
 	{% if site.email %}
-			<a class="btn btn-primary" href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x"></i></a>
+			<a class="btn btn-dark" href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x"></i></a>
 	{% endif %}
-			<a class="btn btn-primary" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss fa-2x"></i></a>
+			<a class="btn btn-dark" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss fa-2x"></i></a>
 		</div>
     </div>
 </div>
