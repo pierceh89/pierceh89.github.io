@@ -15,7 +15,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.summary }}">
-    <meta property="og:image" content="{{ site.url }}/resource/johngrib.png">
+    <meta property="og:image" content="{{ site.url }}/resource/vimwiki.png">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <meta name="twitter:card" content="summary" />
@@ -43,7 +43,7 @@
         gtag('config', '{{ site.google_analytics.ua }}');
     </script>
 {% endif %}
-{% if site.google_adsense.client and page.adsense == true %}
+{% if site.google_adsense.client %}
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({
