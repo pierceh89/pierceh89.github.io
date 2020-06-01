@@ -97,10 +97,12 @@
 					<a class="nav-link" href="/about">me</a>
 				</li>
 			</ul>
-			<form class="form-inline my-2 my-lg-0" method="get" action="/search/">
+			{% if page.url!='/search/' %}
+			<form role="search" class="form-inline my-2 my-lg-0" method="get" action="/search/">
 				 <input name="searchString" class="form-control mr-sm-2" placeholder="검색하세요" type="text">
 				 <input type="submit" class="btn btn-outline-success" value="Search">
 			</form>
+			{% endif %}
 		</div>
 </nav>
 </header>
