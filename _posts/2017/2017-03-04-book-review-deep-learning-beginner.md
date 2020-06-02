@@ -2,7 +2,7 @@
 layout: post
 title   : 딥러닝/머신러닝 독학의 시작, 딥러닝 첫걸음 리뷰
 summary : 
-date    : 2017-03-04 12:27:00 +0900
+date    : 2017-03-04
 tag     : 서평 딥러닝-입문 머신러닝-입문 딥러닝-책-추천
 toc     : false
 comment : true

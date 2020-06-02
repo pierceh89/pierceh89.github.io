@@ -2,7 +2,7 @@
 layout: post
 title: 딥러닝의 원리부터 구현까지 배울수 있는, 밑바닥부터 시작하는 딥러닝 서평
 summary : 
-date    : 2017-03-25 12:29:00 +0900
+date    : 2017-03-25
 tag     : 서평 밑바닥부터-시작하는-딥러닝 딥러닝-책-추천
 toc     : false
 comment : true

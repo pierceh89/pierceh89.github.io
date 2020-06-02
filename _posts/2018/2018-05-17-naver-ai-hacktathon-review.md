@@ -2,7 +2,7 @@
 layout: post
 title: 네이버 AI 해커톤 2018 참여 후기
 summary : 
-date    : 2018-05-17 13:02:00 +0900
+date    : 2018-05-17
 tag     : nlp nsml hackathon
 toc     : false
 comment : true

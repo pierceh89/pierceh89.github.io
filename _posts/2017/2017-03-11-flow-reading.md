@@ -2,7 +2,7 @@
 layout: post
 title: 음악을 듣는 듯이 책을 읽어 보는 플로우 리딩, 1만권 독서법 서평
 summary : 
-date    : 2017-03-11 12:29:00 +0900
+date    : 2017-03-11
 tag     : 서평
 toc     : false
 comment : true

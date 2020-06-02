@@ -2,7 +2,7 @@
 layout: post
 title: 책리뷰 클린소프트웨어-애자일 원칙과 패턴, 그리고 실천 방법
 summary : 
-date    : 2018-01-02 13:00:00 +0900
+date    : 2018-01-02
 tag     : 서평
 toc     : false
 comment : true

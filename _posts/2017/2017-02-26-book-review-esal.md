@@ -2,7 +2,7 @@
 layout  : post
 title   : 먹고, 쏘고, 튄다. 리뷰(Review of Eats, shoots and leaves)
 summary : 
-date    : 2017-02-26 12:17:00 +0900 
+date    : 2017-02-26
 tag     : 먹고,쏘고,튄다 서평
 toc     : false
 comment : true

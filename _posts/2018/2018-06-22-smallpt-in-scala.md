@@ -2,7 +2,7 @@
 layout: post
 title: Smallpt in scala
 summary : 
-date    : 2018-06-22 13:03:32 +0900
+date    : 2018-06-22
 tag     : computer-graphics rendering
 toc     : false
 comment : true

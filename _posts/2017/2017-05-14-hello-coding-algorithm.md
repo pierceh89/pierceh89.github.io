@@ -2,7 +2,7 @@
 layout: post
 title: 처음 알고리즘을 입문하시는 분들에게, 헬로 코딩 그림으로 개념을 이해하는 알고리즘 리뷰
 summary : 
-date    : 2017-05-14 12:32:00 +0900
+date    : 2017-05-14
 tag     : 서평 알고리즘 Algorithm 알고리즘-책-추천 알고리즘-이해
 toc     : false
 comment : true

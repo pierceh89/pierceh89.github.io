@@ -2,7 +2,7 @@
 layout: post
 title: 책리뷰 함수형 사고-프로그래밍 패러다임 전환은 생각보다 어렵다.
 summary : 
-date    : 2018-03-21 13:01:32 +0900
+date    : 2018-03-21
 tag     : 서평
 toc     : false
 comment : true

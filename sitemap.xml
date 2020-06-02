@@ -40,7 +40,7 @@
 {% endfor %}
 {% assign documents = site.wiki %}
 {% for doc in documents %}
-    {% if doc.public == true and doc.title != 'wiki index'%}
+    {% if doc.public == true and doc.title != 'wiki'%}
     <url>
         <loc>{{ site.url }}{{ doc.url }}</loc>
         {% if doc.updated == null %}

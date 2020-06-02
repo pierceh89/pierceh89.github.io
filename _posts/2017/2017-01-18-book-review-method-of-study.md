@@ -2,7 +2,7 @@
 layout  : post
 title   : 완벽한 공부법 책 리뷰
 summary : 
-date    : 2017-01-18 12:13:00 +0900
+date    : 2017-01-18
 tag     : 서평
 toc     : false
 comment : true

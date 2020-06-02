@@ -2,7 +2,7 @@
 layout: post
 title: 손으로 익히며 배우는 네트워크 첫걸음 리뷰
 summary : 
-date    : 2017-12-18 12:35:00 +0900
+date    : 2017-12-18
 tag     : 서평
 toc     : false
 comment : true

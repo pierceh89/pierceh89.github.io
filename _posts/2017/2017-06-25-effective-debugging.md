@@ -2,7 +2,7 @@
 layout: post
 title: 피해갈 수 없는 디버깅을 도와주는 전략서, Effective Debugging
 summary : 
-date    : 2017-06-25 12:33:00 +0900
+date    : 2017-06-25
 tag     : 서평 이펙티브-디버깅 Effective-Debugging Effective-시리즈 Effective-series
 toc     : false
 comment : true

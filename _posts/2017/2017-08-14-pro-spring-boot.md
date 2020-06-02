@@ -2,7 +2,7 @@
 layout: post
 title: Spring Boot 이해하면서 쓰기, '실전 스프링부트 워크북'
 summary : 
-date    : 2017-08-14 12:34:00 +0900
+date    : 2017-08-14
 tag     : 서평 Pro-Spring-Boot 스프링부트-워크북 스프링부트-책-추천
 toc     : false
 comment : true

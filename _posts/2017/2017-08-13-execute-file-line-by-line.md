@@ -2,7 +2,7 @@
 layout: post
 title: 파일의 라인별로 명령어 실행시키기
 summary : 
-date    : 2017-08-13 12:34:00 +0900
+date    : 2017-08-13
 tag     : shell-script
 toc     : false
 comment : true

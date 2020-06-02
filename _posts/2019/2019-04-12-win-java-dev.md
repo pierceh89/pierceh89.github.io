@@ -2,7 +2,7 @@
 layout: post
 title: 윈도우에서 Git + IntelliJ 개발환경 설정 방법
 summary : 
-date    : 2019-04-12 13:04:00 +0900
+date    : 2019-04-12
 tag     : 개발환경설정
 toc     : false
 comment : true

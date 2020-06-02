@@ -2,7 +2,7 @@
 layout: post
 title: 웹 사이트에서 원하는 정보를 추출해보자! 파이썬으로 웹 크롤러 만들기 리뷰
 summary : 
-date    : 2017-05-07 12:31:00 +0900
+date    : 2017-05-07
 tag     : 서평 웹-크롤러 웹-크롤링 웹-스크래이퍼 웹-스크래이핑
 toc     : false
 comment : true

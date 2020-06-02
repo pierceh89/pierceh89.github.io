@@ -2,7 +2,7 @@
 layout: post
 title: 자바 8을 얼른 적용해보고 싶다면, Java8 in action
 summary : 
-date    : 2017-07-11 12:33:00 +0900
+date    : 2017-07-11
 tag     : 서평 자바8인액션 Java8-in-action In-action-시리즈 In-action-series
 toc     : false
 comment : true
