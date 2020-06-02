@@ -7,10 +7,13 @@ comment : false
 regenerate: true
 ---
 
-## wiki items
+## [[computer-graphics]]
+
+* [[Coordinate-Transformation]]
+
+## [[machine-learning]]
 
 * [[logistic-regression]]
-* [[Coordinate-Transformation]]
 
 ---
 
