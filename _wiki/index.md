@@ -7,6 +7,14 @@ comment : false
 regenerate: true
 ---
 
+## [[programming]]
+
+* [[kotlin-dsl]]
+
+## [[productivity]]
+
+* [[vim]]
+
 ## [[computer-graphics]]
 
 * [[Coordinate-Transformation]]
