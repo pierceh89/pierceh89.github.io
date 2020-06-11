@@ -3,12 +3,13 @@ layout  : wiki
 title   : kotlin-dsl
 summary : kotlin 으로 dsl 만들어 활용하기
 date    : 2020-06-03T09:47:23+0900
-updated : 2020-06-05 19:54:26 +0900
+updated : 2020-06-06 22:33:49 +0900
 tag     : kotlin dsl
 toc     : true
 public  : true
 parent  : [[programming]]
 latex   : false
+comment : true
 ---
 * TOC
 {:toc}

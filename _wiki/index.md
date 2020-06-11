@@ -11,6 +11,14 @@ regenerate: true
 
 * [[kotlin-dsl]]
 
+### [[golang]]
+
+* [[gin-gonic]]
+
+### [[javascript]]
+
+### [[algorithms]]
+
 ## [[productivity]]
 
 * [[vim]]
