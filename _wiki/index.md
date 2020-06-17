@@ -10,6 +10,7 @@ regenerate: true
 ## [[programming]]
 
 * [[kotlin-dsl]]
+* [[kafka]]
 
 ### [[golang]]
 
@@ -22,6 +23,7 @@ regenerate: true
 ## [[productivity]]
 
 * [[vim]]
+* [[shell]]
 
 ## [[computer-graphics]]
 
