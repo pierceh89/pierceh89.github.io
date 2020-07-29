@@ -3,8 +3,8 @@ layout  : wiki
 title   : Generic type의 jackson deserialiser
 summary : type eraser를 극복하자
 date    : 2020-07-21 01:01:25 +0900
-updated : 2020-07-29 18:57:32 +0900
-tags    : jackson kotlin parameterized-type
+updated : 2020-07-29 19:02:51 +0900
+tag     : jackson kotlin parameterized-type
 toc     : true
 public  : true
 parent  : [[programming]]
