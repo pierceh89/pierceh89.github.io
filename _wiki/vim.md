@@ -3,7 +3,7 @@ layout  : wiki
 title   : vim
 summary : vim 배우면서 찾은 vim 사용팁들 정리
 date    : 2020-06-03T09:47:23+0900
-updated : 2020-06-17 23:56:08 +0900
+updated : 2020-06-24 10:23:49 +0900
 tag     : vim
 toc     : true
 public  : true
@@ -58,6 +58,41 @@ vim 플러그인은 잘 쓰는 사람이 설정한걸 따라만 써도 반은 �
 - [ReplaceWithRegister](https://github.com/vim-scripts/ReplaceWithRegister)
 
 	- vim 사용하면서 불편하다고 생각했던 것이다. yank한 뒤에 붙여넣을 곳에 텍스트를 삭제하고 붙여넣기하면 기존 텍스트가 다시 삽입되는 일이 발생한다. delete가 실제로는 잘라내기처럼 작동하기 때문이다. 블랙홀 레지스터에 삭제하고 붙여넣으면 된다고 한다. 레지스터에 대해서 이해해야 쓸 수 있을것 같다.
+
+## vim script
+`:h usr_41.txt`  
+[Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/)  
+Add `!` to the end of functions, allowing them to reload.  
+`:so` is the same as `:source`
+`:source %` will load the current file
+`
+:h :eval
+:h :execute
+:h :expand
+:h :let
+:h :normal
+:h :set
+:h abbrev
+:h autocmd
+:h command
+:h echo
+:h expand
+:h function
+:h g:
+:h line
+:h map.txt
+:h map
+:h netrw
+:h normal
+:h scriptease
+:h so
+:h system
+:h usr_41.txt
+:h variables
+`
+
+## netrw
+Practical Vim Tip 43 참조
 
 ## 레퍼런스
 - [https://vim.fandom.com/wiki/Insert_current_date_or_time]

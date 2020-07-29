@@ -11,6 +11,8 @@ regenerate: true
 
 * [[kotlin-dsl]]
 * [[kafka]]
+* [[kotlin-script]]
+* [[jackson-parameterized-type-cast]]
 
 ### [[golang]]
 

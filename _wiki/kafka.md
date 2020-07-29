@@ -3,7 +3,7 @@ layout  : wiki
 title   : kafka
 summary : kafka study
 date    : 2020-06-11T18:14:13+0900
-updated : 2020-06-17 23:51:32 +0900
+updated : 2020-06-18 09:35:22 +0900
 tag     : kafka
 toc     : true
 public  : false
@@ -62,7 +62,7 @@ comment : true
 		- acks=1 리더 리플리카가 레코드를 받는 순간 성공 응답을 보내준다.
 		- acks=all in-sync replica 전부에서 레코드를 받았을 때 성공 응답을 보내준다. 레코드 유실 가능성이 가장 낮다.
 	- *buffer.memory* 메세지 버퍼의 메모리 할당량 설정
-	- *compression.type* = snappy | gzip | lz4 디폴트는 메세지를 압축하지 않고 보낸다.
+	- *compression.type* = snappy / gzip / lz4 디폴트는 메세지를 압축하지 않고 보낸다.
 	- *retries* 얼마나 많이 재시도 *retry.backoff.ms* 어느 시간 뒤에 재시도
 	- *batch.size* 배치 사이즈(byte)
 	- *linger.ms* 현재 배치에서 카프카 브로커로 메세지를 보내기전 얼마나 기다릴지 설정
