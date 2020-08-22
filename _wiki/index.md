@@ -35,6 +35,9 @@ regenerate: true
 
 * [[logistic-regression]]
 
+## [[linux]]
+
+* [[ubuntu-update-alternatives]]
 ---
 
 ## blog posts
