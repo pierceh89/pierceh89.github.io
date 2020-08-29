@@ -13,14 +13,8 @@ regenerate: true
 * [[kafka]]
 * [[kotlin-script]]
 * [[jackson-parameterized-type-cast]]
-
-### [[golang]]
-
 * [[gin-gonic]]
-
-### [[javascript]]
-
-### [[algorithms]]
+* [[postgres]]
 
 ## [[productivity]]
 
