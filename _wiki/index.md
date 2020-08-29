@@ -32,6 +32,7 @@ regenerate: true
 ## [[linux]]
 
 * [[ubuntu-update-alternatives]]
+
 ---
 
 ## blog posts

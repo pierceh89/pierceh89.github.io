@@ -3,6 +3,7 @@ layout  : wiki
 title   : kotlin-script
 summary : kotlin script engine 사용하기
 date    : 2020-07-16T22:46:00+0900
+updated : 2020-08-29 15:23:29 +0900
 tag     : kotlin-script jsr223
 toc     : true
 public  : true

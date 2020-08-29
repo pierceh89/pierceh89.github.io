@@ -3,6 +3,7 @@ layout  : category
 title   : gin-gonic
 summary :
 date    : 2020-06-06T22:34:41+0900
+updated : 2020-08-29 15:25:00 +0900
 tag     : programming golang gin-gonic
 toc     : true
 public  : true
