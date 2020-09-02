@@ -3,7 +3,7 @@ layout  : wiki
 title   : vim
 summary : vim 배우면서 찾은 vim 사용팁들 정리
 date    : 2020-06-03T09:47:23+0900
-updated : 2020-06-24 10:23:49 +0900
+updated : 2020-09-02 17:06:09 +0900
 tag     : vim
 toc     : true
 public  : true
@@ -42,11 +42,6 @@ vim 플러그인은 잘 쓰는 사람이 설정한걸 따라만 써도 반은 �
 	- `ysiw]` 또는 `ysaw]` 또는 `ys1w]` word 1개를 대괄호로 감싸기 `ysaw`의 경우 중간에 삽입 모드로 바뀌는 경우가 있었다. (neovim만 그런건지?)
 	- `yssb` 또는 `yss)` 라인 전체를 괄호로 감싸기
 	- 비주얼모드에서 태그로 감싸기 `S<p class="important">`
-```
-<p class="important">
-	<em>Hello</em> World!
-</p>
-```
 
 - [textobj-entire](https://github.com/kana/vim-textobj-entire)
 
@@ -63,9 +58,10 @@ vim 플러그인은 잘 쓰는 사람이 설정한걸 따라만 써도 반은 �
 `:h usr_41.txt`  
 [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/)  
 Add `!` to the end of functions, allowing them to reload.  
-`:so` is the same as `:source`
-`:source %` will load the current file
-`
+`:so` is the same as `:source`  
+`:source %` will load the current file  
+
+```
 :h :eval
 :h :execute
 :h :expand
@@ -89,7 +85,7 @@ Add `!` to the end of functions, allowing them to reload.
 :h system
 :h usr_41.txt
 :h variables
-`
+```
 
 ## netrw
 Practical Vim Tip 43 참조
