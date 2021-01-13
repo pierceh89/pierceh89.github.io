@@ -16,6 +16,7 @@ regenerate: true
 * [[gin-gonic]]
 * [[postgres]]
 * [[ANTLR]]
+* [[Generics-covariance]]
 
 ## [[productivity]]
 
