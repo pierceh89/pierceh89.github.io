@@ -4,7 +4,7 @@
     summary: ""
     parent: null
     url: /blog/2017/01/18/book-review-method-of-study
-    updated: '2017-01-18 12:13:00 +0900'
+    updated: '2017-01-18'
     children: []
 2017-02-26-book-review-esal:
     type: blog
@@ -12,7 +12,7 @@
     summary: ""
     parent: null
     url: /blog/2017/02/26/book-review-esal
-    updated: '2017-02-26 12:17:00 +0900'
+    updated: '2017-02-26'
     children: []
 2017-03-04-book-review-deep-learning-beginner:
     type: blog
@@ -20,7 +20,7 @@
     summary: ""
     parent: null
     url: /blog/2017/03/04/book-review-deep-learning-beginner
-    updated: '2017-03-04 12:27:00 +0900'
+    updated: '2017-03-04'
     children: []
 2017-03-11-flow-reading:
     type: blog
@@ -28,7 +28,7 @@
     summary: ""
     parent: null
     url: /blog/2017/03/11/flow-reading
-    updated: '2017-03-11 12:29:00 +0900'
+    updated: '2017-03-11'
     children: []
 2017-03-25-deep-learning-from-scratch:
     type: blog
@@ -36,7 +36,7 @@
     summary: ""
     parent: null
     url: /blog/2017/03/25/deep-learning-from-scratch
-    updated: '2017-03-25 12:29:00 +0900'
+    updated: '2017-03-25'
     children: []
 2017-04-16-microservice-architecture-book-review:
     type: blog
@@ -44,7 +44,7 @@
     summary: ""
     parent: null
     url: /blog/2017/04/16/microservice-architecture-book-review
-    updated: '2017-04-16 12:30:00 +0900'
+    updated: '2017-04-16'
     children: []
 2017-05-07-python-scraping:
     type: blog
@@ -52,7 +52,7 @@
     summary: ""
     parent: null
     url: /blog/2017/05/07/python-scraping
-    updated: '2017-05-07 12:31:00 +0900'
+    updated: '2017-05-07'
     children: []
 2017-05-14-hello-coding-algorithm:
     type: blog
@@ -60,7 +60,7 @@
     summary: ""
     parent: null
     url: /blog/2017/05/14/hello-coding-algorithm
-    updated: '2017-05-14 12:32:00 +0900'
+    updated: '2017-05-14'
     children: []
 2017-06-25-effective-debugging:
     type: blog
@@ -68,7 +68,7 @@
     summary: ""
     parent: null
     url: /blog/2017/06/25/effective-debugging
-    updated: '2017-06-25 12:33:00 +0900'
+    updated: '2017-06-25'
     children: []
 2017-07-11-java8-in-action:
     type: blog
@@ -76,7 +76,7 @@
     summary: ""
     parent: null
     url: /blog/2017/07/11/java8-in-action
-    updated: '2017-07-11 12:33:00 +0900'
+    updated: '2017-07-11'
     children: []
 2017-08-13-execute-file-line-by-line:
     type: blog
@@ -84,7 +84,7 @@
     summary: ""
     parent: null
     url: /blog/2017/08/13/execute-file-line-by-line
-    updated: '2017-08-13 12:34:00 +0900'
+    updated: '2017-08-13'
     children: []
 2017-08-14-pro-spring-boot:
     type: blog
@@ -92,7 +92,7 @@
     summary: ""
     parent: null
     url: /blog/2017/08/14/pro-spring-boot
-    updated: '2017-08-14 12:34:00 +0900'
+    updated: '2017-08-14'
     children: []
 2017-12-18-network-beginner:
     type: blog
@@ -100,7 +100,7 @@
     summary: ""
     parent: null
     url: /blog/2017/12/18/network-beginner
-    updated: '2017-12-18 12:35:00 +0900'
+    updated: '2017-12-18'
     children: []
 2018-01-02-clean-software:
     type: blog
@@ -108,7 +108,7 @@
     summary: ""
     parent: null
     url: /blog/2018/01/02/clean-software
-    updated: '2018-01-02 13:00:00 +0900'
+    updated: '2018-01-02'
     children: []
 2018-03-21-functional-thinking-review:
     type: blog
@@ -116,7 +116,7 @@
     summary: ""
     parent: null
     url: /blog/2018/03/21/functional-thinking-review
-    updated: '2018-03-21 13:01:32 +0900'
+    updated: '2018-03-21'
     children: []
 2018-05-17-naver-ai-hacktathon-review:
     type: blog
@@ -124,7 +124,7 @@
     summary: ""
     parent: null
     url: /blog/2018/05/17/naver-ai-hacktathon-review
-    updated: '2018-05-17 13:02:00 +0900'
+    updated: '2018-05-17'
     children: []
 2018-06-22-smallpt-in-scala:
     type: blog
@@ -132,7 +132,7 @@
     summary: ""
     parent: null
     url: /blog/2018/06/22/smallpt-in-scala
-    updated: '2018-06-22 13:03:32 +0900'
+    updated: '2018-06-22'
     children: []
 2019-04-12-win-java-dev:
     type: blog
@@ -140,7 +140,55 @@
     summary: ""
     parent: null
     url: /blog/2019/04/12/win-java-dev
-    updated: '2019-04-12 13:04:00 +0900'
+    updated: '2019-04-12'
+    children: []
+2020-06-03-vimwiki-blog:
+    type: blog
+    title: 'vimwiki로 위키와 블로그 끝내기'
+    summary: '더이상 스킨 변경은 없다'
+    parent: null
+    url: /blog/2020/06/03/vimwiki-blog
+    updated: '2020-06-03T00:28:13+0900'
+    children: []
+2020-09-02-rpi-nas:
+    type: blog
+    title: '라즈베리 파이4를 사용해서 NAS 서버 만들기'
+    summary: 'NAS DIY'
+    parent: null
+    url: /blog/2020/09/02/rpi-nas
+    updated: '2020-09-02T11:14:14+0900'
+    children: []
+2020-09-03-certbot-ssl:
+    type: blog
+    title: 'Certbot 이용하여 SSL 인증서 발급'
+    summary: 'https 적용하기'
+    parent: null
+    url: /blog/2020/09/03/certbot-ssl
+    updated: '2020-09-03T23:38:47+0900'
+    children: []
+2020-09-07-code-server:
+    type: blog
+    title: 'Visual Studio Code를 브라우저 상에 띄우기'
+    summary: '태블릿으로 개발하기'
+    parent: null
+    url: /blog/2020/09/07/code-server
+    updated: '2020-09-07T20:19:58+0900'
+    children: []
+2020-09-06-nginx-virtual-host:
+    type: blog
+    title: 'Nginx virtual host 설정, Certbot 이용하여 Let''s encrypt 인증서 발급'
+    summary: '전부 https를 적용하자'
+    parent: null
+    url: /blog/2020/09/07/nginx-virtual-host
+    updated: '2020-09-07T00:11:46+0900'
+    children: []
+ANTLR:
+    type: wiki
+    title: 'ANTLR 이용하여 Reverse Polish Notation을 파싱하고 중위표현법으로 변환하기'
+    summary: 'ANTLR을 이용한 DSL 만들기'
+    parent: programming
+    url: /wiki/ANTLR
+    updated: '2020-09-20 16:51:17 +0900'
     children: []
 computer-graphics:
     type: wiki
@@ -158,14 +206,62 @@ Coordinate-Transformation:
     url: /wiki/Coordinate-Transformation
     updated: '2020-05-31 13:50:32 +0900'
     children: []
+Generics-covariance:
+    type: wiki
+    title: '제네릭의 변성'
+    summary: '자바, 코틀린이 타입 안전성을 어떻게 보장하는지 알아보자'
+    parent: programming
+    url: /wiki/Generics-covariance
+    updated: '2021-01-13 13:32:07 +0900'
+    children: []
+gin-gonic:
+    type: wiki
+    title: gin-gonic
+    summary: null
+    parent: programming
+    url: /wiki/gin-gonic
+    updated: '2020-08-29 15:25:00 +0900'
+    children: []
 index:
     type: wiki
-    title: wiki
+    title: Wiki
     summary: null
     parent: null
     url: /wiki/index
     updated: null
     children: []
+jackson-parameterized-type-cast:
+    type: wiki
+    title: 'Generic type의 jackson deserialiser'
+    summary: 'type eraser를 극복하자'
+    parent: programming
+    url: /wiki/jackson-parameterized-type-cast
+    updated: '2020-07-29 19:02:51 +0900'
+    children: []
+kotlin-dsl:
+    type: wiki
+    title: kotlin-dsl
+    summary: 'kotlin 으로 dsl 만들어 활용하기'
+    parent: programming
+    url: /wiki/kotlin-dsl
+    updated: '2020-06-06 22:33:49 +0900'
+    children: []
+kotlin-script:
+    type: wiki
+    title: kotlin-script
+    summary: 'kotlin script engine 사용하기'
+    parent: programming
+    url: /wiki/kotlin-script
+    updated: '2020-08-29 15:23:29 +0900'
+    children: []
+linux:
+    type: wiki
+    title: Linux
+    summary: ""
+    parent: index
+    url: /wiki/linux
+    updated: '2020-08-22 17:17:33 +0900'
+    children: [ubuntu-update-alternatives]
 logistic-regression:
     type: wiki
     title: 'Logistic Regression의 Gradient descent 공식 유도'
@@ -182,3 +278,51 @@ machine-learning:
     url: /wiki/machine-learning
     updated: '2020-05-31 19:35:32 +0900'
     children: [logistic-regression]
+postgres:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: programming
+    url: /wiki/postgres
+    updated: '2020-08-29 15:28:16 +0900'
+    children: []
+productivity:
+    type: wiki
+    title: productivity
+    summary: null
+    parent: index
+    url: /wiki/productivity
+    updated: '2020-08-29 15:24:44 +0900'
+    children: [shell, vim]
+programming:
+    type: wiki
+    title: programming
+    summary: null
+    parent: index
+    url: /wiki/programming
+    updated: '2020-08-29 15:24:33 +0900'
+    children: [ANTLR, Generics-covariance, gin-gonic, jackson-parameterized-type-cast, kotlin-dsl, kotlin-script, postgres]
+shell:
+    type: wiki
+    title: shell
+    summary: 'shell command cheat sheet'
+    parent: productivity
+    url: /wiki/shell
+    updated: '2020-09-11 18:20:27 +0900'
+    children: []
+ubuntu-update-alternatives:
+    type: wiki
+    title: 'ubuntu update-alternatives 명령어 요약'
+    summary: ""
+    parent: linux
+    url: /wiki/ubuntu-update-alternatives
+    updated: '2020-08-22 18:32:32 +0900'
+    children: []
+vim:
+    type: wiki
+    title: vim
+    summary: 'vim 배우면서 찾은 vim 사용팁들 정리'
+    parent: productivity
+    url: /wiki/vim
+    updated: '2020-09-02 17:06:09 +0900'
+    children: []

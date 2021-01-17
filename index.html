@@ -6,26 +6,24 @@ regenerate: true
 
 <div class="blog-face">
     <div class="jumbotron">
-        <h1>
-            <a class="text-dark" href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
-            +
-            <a class="text-dark" href="https://jekyllrb.com/">Jekyll</a>
-            +
-            <a class="text-dark" href="https://pages.github.com/">Github.io</a>
-        </h1>
-		<hr class="my-4">
-		<h3>위키 위키</h3>
+        <h2>
+            디지털 아카이브
+        </h2>
+        <hr class="my-4">
 		<div class="contact">
-	{% if site.github_username %}
-			<a class="btn btn-dark" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-2x"></i></a>
-	{% endif %}
-	{% if site.twitter_username %}
-			<a class="btn btn-dark" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-2x"></i></a>
-	{% endif %}
-	{% if site.email %}
-			<a class="btn btn-dark" href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x"></i></a>
-	{% endif %}
-			<a class="btn btn-dark" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss fa-2x"></i></a>
+        {% if site.github_username %}
+        <a class="btn btn-dark" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
+        {% endif %}
+        {% if site.linked_in %}
+        <a class="btn btn-dark" href="https://www.linkedin.com/in/{{ site.linked_in }}"><i class="fa fa-linkedin"></i></a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a class="btn btn-dark" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+        {% endif %}
+        {% if site.email %}
+        <a class="btn btn-dark" href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
+        {% endif %}
+			<a class="btn btn-dark" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a>
 		</div>
     </div>
 </div>

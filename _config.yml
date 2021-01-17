@@ -3,15 +3,16 @@ title: 디에고의 위키
 url: "https://pierceh89.github.io"
 baseurl: ""
 description: >
-    디에고의 개발로그 위키
-    그 외 여러가지 기록
+  디에고의 개발로그 위키
+  그 외 여러가지 기록
 
 # My information
 email: pierceh89@gmail.com
 author: 디에고
-profile: 운동 좋아하는 개발자
+#profile: 운동 좋아하는 개발자
 # twitter_username: pierceh89
 github_username: pierceh89
+linked_in: hyounggap_an
 comment-support: utterances
 
 # Build settings
@@ -26,16 +27,18 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
-paginate: 10 
+paginate: 20
 paginator_path: "/blog"
 paginate_path: "/blog/page:num/"
 
 # Collections
 collections:
-    wiki:
-        output: true
-        permalink: /:collection/:path/
+  wiki:
+    output: true
+    permalink: /:collection/:path/
 
 # Comment Service
 disqus:
@@ -50,15 +53,11 @@ utterances:
 google_analytics:
   ua: UA-73592063-3
 
-google_adsense:
-  client: ca-pub-7167599688638926
+#google_adsense:
+#  client: ca-pub-7167599688638926
 
 blame: "https://github.com/pierceh89/pierceh89.github.io/blame/master/_wiki"
 edit: "https://github.com/pierceh89/pierceh89.github.io/edit/master/_wiki"
 issue: "https://github.com/pierceh89/pierceh89.github.io/issues/new"
 
 timezone: "Asia/Seoul"
-
-# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
-kramdown:
-    smart_quotes: ["apos", "apos", "quot", "quot"]
