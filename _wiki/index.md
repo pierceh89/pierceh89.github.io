@@ -1,6 +1,7 @@
 ---
 layout  : wikiindex
 title   : Wiki
+date    : 2021-01-16T00:19:00+0900
 toc     : true
 public  : true
 comment : false
