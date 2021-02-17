@@ -190,6 +190,14 @@ ANTLR:
     url: /wiki/ANTLR
     updated: '2020-09-20 16:51:17 +0900'
     children: []
+book:
+    type: wiki
+    title: '내가 읽은 책 모음'
+    summary: ""
+    parent: index
+    url: /wiki/book
+    updated: '2021-02-16 22:35:37 +0900'
+    children: []
 computer-graphics:
     type: wiki
     title: 'Computer Graphics'
@@ -301,7 +309,7 @@ programming:
     parent: index
     url: /wiki/programming
     updated: '2020-08-29 15:24:33 +0900'
-    children: [ANTLR, Generics-covariance, gin-gonic, jackson-parameterized-type-cast, kotlin-dsl, kotlin-script, postgres]
+    children: [ANTLR, Generics-covariance, gin-gonic, jackson-parameterized-type-cast, kotlin-dsl, kotlin-script, postgres, spring-aop]
 shell:
     type: wiki
     title: shell
@@ -309,6 +317,14 @@ shell:
     parent: productivity
     url: /wiki/shell
     updated: '2020-09-11 18:20:27 +0900'
+    children: []
+spring-aop:
+    type: wiki
+    title: 'Spring의 Aspect Oriented Programming(AOP)'
+    summary: 'AOP 사용기'
+    parent: programming
+    url: /wiki/spring-aop
+    updated: '2021-02-17 23:09:33 +0900'
     children: []
 ubuntu-update-alternatives:
     type: wiki

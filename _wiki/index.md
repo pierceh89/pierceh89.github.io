@@ -13,10 +13,11 @@ regenerate: true
 * [[kafka]]
 * [[kotlin-script]]
 * [[jackson-parameterized-type-cast]]
+* [[spring-aop]]
 * [[gin-gonic]]
 * [[postgres]]
 * [[ANTLR]]
-* [[Generics-covariance]]
+* [[Generics-covariance]]{제네릭의 변성}
 
 ## [[productivity]]
 
@@ -35,20 +36,6 @@ regenerate: true
 
 * [[ubuntu-update-alternatives]]
 
----
+## [[book]]
 
-## blog posts
-<div>
-    <ul>
-{% for post in site.posts %}
-    {% if post.public != false %}
-        <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-            </a>
-        </li>
-    {% endif %}
-{% endfor %}
-    </ul>
-</div>
 
