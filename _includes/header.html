@@ -4,7 +4,7 @@
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <meta name="description" content="{{ page.summary }}">
+	<meta name="description" content="{% if site_desc %}{{ site_desc }}{% else %}{{ page.summary }}{% endif %}">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -13,8 +13,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.summary }}">
+    <meta property="og:title" content="{% if site_title %}{{ site_title }}{% else %}{{ page.title }}{% endif %}">
+    <meta property="og:description" content="{% if site_desc %}{{ site_desc }}{% else %}{{ page.summary }}{% endif %}">
     <meta property="og:image" content="{{ site.url }}/resource/vimwiki.png">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
