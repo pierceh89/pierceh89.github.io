@@ -24,14 +24,16 @@
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.summary }}" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/resource/icon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/resource/icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/resource/icon/favicon-16x16.png">
-	<link rel="manifest" href="/resource/icon/site.webmanifest">
-	<link rel="mask-icon" href="/resource/icon/safari-pinned-tab.svg" color="#333333">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/resource/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/resource/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/resource/icon/favicon-16x16.png">
+	<link rel="manifest" href="{{ site.url }}/resource/icon/site.webmanifest">
+	<link rel="mask-icon" href="{{ site.url }}/resource/icon/safari-pinned-tab.svg" color="#333333">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
+	<!-- Naver search advisor -->
+	<meta name="robots" content="index,follow" />
 {% if site.google_analytics.ua %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script>
