@@ -159,6 +159,12 @@ golang:
     - {fileName: gin-gonic}
 gin-gonic:
     - {fileName: gin-gonic}
+google:
+    - {fileName: google-java-style-guide}
+java-style:
+    - {fileName: google-java-style-guide}
+style-guide:
+    - {fileName: google-java-style-guide}
 jackson:
     - {fileName: jackson-parameterized-type-cast}
 parameterized-type:

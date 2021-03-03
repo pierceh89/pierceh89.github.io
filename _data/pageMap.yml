@@ -230,6 +230,14 @@ gin-gonic:
     url: /wiki/gin-gonic
     updated: '2020-08-29 15:25:00 +0900'
     children: []
+google-java-style-guide:
+    type: wiki
+    title: '구글 자바 스타일 가이드'
+    summary: '구글 자바 스타일 요약'
+    parent: programming
+    url: /wiki/google-java-style-guide
+    updated: '2021-03-03 19:44:13 +0900'
+    children: []
 index:
     type: wiki
     title: Wiki
@@ -309,7 +317,7 @@ programming:
     parent: index
     url: /wiki/programming
     updated: '2020-08-29 15:24:33 +0900'
-    children: [ANTLR, Generics-covariance, gin-gonic, jackson-parameterized-type-cast, kotlin-dsl, kotlin-script, postgres, spring-aop]
+    children: [ANTLR, Generics-covariance, gin-gonic, google-java-style-guide, jackson-parameterized-type-cast, kotlin-dsl, kotlin-script, postgres, spring-aop]
 shell:
     type: wiki
     title: shell
