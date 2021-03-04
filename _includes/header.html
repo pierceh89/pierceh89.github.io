@@ -46,13 +46,7 @@
     </script>
 {% endif %}
 {% if site.google_adsense.client %}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ site.google_adsense.client }}",
-        enable_page_level_ads: true
-      });
-    </script>
+	<script data-ad-client="{{ site.google_adsense.client }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 {% endif %}
 	<meta name="naver-site-verification" content="6fd844ad34bc9b753cae7e0a02491b03b51c9656" />
 

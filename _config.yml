@@ -53,8 +53,8 @@ utterances:
 google_analytics:
   ua: UA-73592063-3
 
-#google_adsense:
-#  client: ca-pub-7167599688638926
+google_adsense:
+  client: ca-pub-7167599688638926
 
 blame: "https://github.com/pierceh89/pierceh89.github.io/blame/master/_wiki"
 edit: "https://github.com/pierceh89/pierceh89.github.io/edit/master/_wiki"
