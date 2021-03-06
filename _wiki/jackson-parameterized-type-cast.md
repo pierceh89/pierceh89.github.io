@@ -3,7 +3,7 @@ layout  : wiki
 title   : Generic type의 jackson deserialiser
 summary : type eraser를 극복하자
 date    : 2020-07-21 01:01:25 +0900
-updated : 2020-07-29 19:02:51 +0900
+updated : 2021-03-06 16:29:56 +0900
 tag     : jackson kotlin parameterized-type
 toc     : true
 public  : true
@@ -13,13 +13,13 @@ latex   : false
 * TOC
 {:toc}
 
-# AbstractDataConverter
+## AbstractDataConverter
 
 각각 다른 주소의 API를 호출하여 결과값을 deserialize 한 객체를 반환하는 클래스들이 여러개 있다.
 
 추상 클래스를 만들어서 반복되는 코드(deserialization)를 묶어서 처리하고 싶은데 의도한 대로 작동하지 않는다.
 
-## 예제
+### 예제
 
 ```kotlin
 // does not work
@@ -53,7 +53,7 @@ fun testGenericDataConverter() {
 
 ```
 
-# Type eraser
+## Type eraser
 
 의도와는 다르게 `java.lang.ClassCastException`이 발생했다. 클래스의 타입 인자로 `Foo`, `Bar`를 줬는데 왜 이런 에러가 발생할까?
 
@@ -61,11 +61,11 @@ fun testGenericDataConverter() {
 
 해결방법은 간단하다. 상속받는 클래스에서 구체화된 타입 정보를 반환하도록 넘겨주면 된다.
 
-# AbstractDataTypeConverter
+## AbstractDataTypeConverter
 
 상속받는 클래스가 `TypeReference<T>`를 구현하면 각 `typeReference`는 상속받는 타입(`Type`)을 내부에 저장하게 되어 deserialize가 가능하게 된다.
 
-## 예제
+### 예제
 
 ```kotlin
 abstract class AbstractDataTypeConverter<T> {
@@ -114,7 +114,7 @@ fun testGenericDataTypeConverter() {
 }
 ```
 
-# reified 키워드
+## reified 키워드
 
 코틀린에서는 `reified` 키워드를 제공하는데 아래 처럼 사용하면 실행 시점에서도 타입에 대한 정보를 잃지 않고 사용할 수 있다.
 
@@ -126,7 +126,7 @@ inline fun <reified T> convert(jsonStr: String): T {
 }
 ```
 
-# 링크
+## 링크
 
 - <https://www.baeldung.com/java-type-erasure>
 - [예제코드](https://github.com/pierceh89/jackson-parameterized-type)

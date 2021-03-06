@@ -3,7 +3,7 @@ layout  : wiki
 title   : ANTLR 이용하여 Reverse Polish Notation을 파싱하고 중위표현법으로 변환하기
 summary : ANTLR을 이용한 DSL 만들기
 date    : 2020-09-20 15:20:28 +0900
-updated : 2020-09-20 16:51:17 +0900
+updated : 2021-03-06 16:28:24 +0900
 tag     : antlr dsl parser reverse-polish-notation
 toc     : true
 public  : true
@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
-# ANTLR
+## ANTLR
 
 [ANTLR](https://www.antlr.org/) 은 ANother Tool for Language Recognition의 약자로, dsl을 만들 때 사용할 수 있는 라이브러리다. 
 
@@ -23,7 +23,7 @@ ANTLR을 사용하면 정의한 Lexer와 Parser의 코드가 자동으로 생성
 
 성능이나 확장성 또는 유지보수성을 전부 고려해보진 않았지만 스크립트 엔진 튜닝 때문에 삽질한 경험으로는 후자가 더 나아보인다.
 
-# Reverse Polish Notation (RPN)
+## Reverse Polish Notation (RPN)
 
 [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) 에 대해 처음 접한 것은 폴란드에 교환학생으로 수업을 듣던 때였다. 자료구조였나 알고리즘이었나 수업 시간에 문자열에서 RPN을 해석하고 그 식의 연산 결과를 리턴하는 프로그램을 만들라는 과제를 받았다.
 
@@ -33,7 +33,7 @@ ANTLR을 사용하면 정의한 Lexer와 Parser의 코드가 자동으로 생성
 
 아래에서 설명하는 예제의 전체 코드는 [github](https://github.com/pierceh89/reverse-polish-notation) 에서 확인할 수 있다.
 
-## Grammar
+### Grammar
 
 컴파일러 수업을 듣지 않아서 이해하는데 애를 먹었지만, [온라인 도큐멘테이션](https://github.com/antlr/antlr4/blob/4.8/doc/index.md) 을 보고 RPN의 문법을 정의했다.
 
@@ -66,7 +66,7 @@ expr:   VALUE
 
 ![2 5 + 4 2 + * 에 대한 ParseTree](https://user-images.githubusercontent.com/12782821/93706448-4cf8e180-fb61-11ea-9e76-2b38480dabc7.png)
 
-## Listener, Visitor
+### Listener, Visitor
 
 그레이들 플러그인을 설정하면 `generateGrammarSource` task가 생기는데 이걸 실행하면 Lexer, Parser가 자동으로 생성된다. `grammar` 이름이 접두사로 붙는 파일들이 생기는데 `PolishNotationBaseListener` 또는 `PolishNotationBaseVisitor`를 상속받아서 함수를 재정의하면 된다.
 
@@ -99,7 +99,7 @@ public class PolishNotationConverter extends PolishNotationBaseVisitor<Expressio
 }
 ```
 
-## Test
+### Test
 
 `Expression`의 클래스를 구현해서 `toString()`을 override하고 `PolishNotationConverter`를 구현하는 것으로 간단하게 RPN을 파싱하고 중위 표기법으로 변환해주는 코드를 완성했다.
 

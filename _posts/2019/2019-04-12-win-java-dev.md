@@ -1,6 +1,6 @@
 ---
-layout: post
-title: 윈도우에서 Git + IntelliJ 개발환경 설정 방법
+layout  : post
+title   : 윈도우에서 Git + IntelliJ 개발환경 설정 방법
 summary : 
 date    : 2019-04-12
 tag     : 개발환경설정
@@ -11,14 +11,14 @@ public  : true
 
 이제 막 자바를 통해 프로그래밍을 접하는 사람들을 위해 윈도우즈에서 개발환경을 설정하는 방법을 알려드리고자 합니다.  
 
-# Git 설치
+## Git 설치
 소스 코드의 버전 관리를 위해 필요합니다.  
 IntelliJ에서는 Git을 통합한 개발환경을 제공하지만 설치는 따로 해줘야합니다.  
 [링크](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%84%A4%EC%B9%98)에 들어간뒤, 'Windows에 설치' 항목에서 Windows용 Git을 다운받아서 설치합니다.  
 
 ![Git install]({{site.url}}/assets/img/git_install.png)
 
-# JAVA(JDK)
+## JAVA(JDK)
 자바로 개발을 하기 위해서는 Java Development Kit(JDK)가 필요합니다. 상업적 용도가 아니라면 Oracle JDK든 Open JDK든 상관없기 때문에 Oracle JDK를 받아봅시다. [링크](https://www.oracle.com/technetwork/java/javase/downloads/index.html)에 들어가서 Java SE 8u201 / Java SE 8u202를 찾아서 JDK download를 클릭합니다.  
 
 ![Oracle JDK]({{site.url}}/assets/img/jdk_download.png)

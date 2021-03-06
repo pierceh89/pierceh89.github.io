@@ -19,7 +19,7 @@ iptime ddns를 사용하면서 https를 사용할 수 있으면 좋았겠지만,
 
 [Certbot](https://certbot.eff.org/)은 Let's encrypt 인증서 발급을 도와주는 도구라고 보면 된다. 
 
-# 인증서 발급
+## 인증서 발급
 
 1. 80포트로 서빙하는 서비스는 잠시 멈춘 뒤에, 
 2. Certbot을  클론 받고, 
@@ -50,7 +50,7 @@ IMPORTANT NOTES:
 
 갱신 방법도 간단히 `certbot-auto renew` 명령어 한 줄로 할 수 있다.
 
-# 적용
+## 적용
 
 `/etc/letsencrypt/live/도메인/` 경로에 가면 `chain.pem`, `cert.pem`, `privkey.pem` 파일들이 있다. 이 파일들 권한이 root로 돼있기 때문에 실행시 권한 문제가 발생했다. 그래서 프로젝트 경로에 복사해준 뒤에 `chown $user:$user 파일이름` 커맨드를 통해 권한을  변경해줬다.
 

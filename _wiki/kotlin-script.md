@@ -3,7 +3,7 @@ layout  : wiki
 title   : kotlin-script
 summary : kotlin script engine 사용하기
 date    : 2020-07-16T22:46:00+0900
-updated : 2020-08-29 15:23:29 +0900
+updated : 2021-03-06 16:29:25 +0900
 tag     : kotlin-script jsr223
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ comment : true
 * TOC
 {:toc}
 
-# kotlin script engine
+## kotlin script engine
 
 코틀린 스크립트 엔진을 웹 서버에 띄워서 사용하려고 리서치중
 
@@ -22,7 +22,7 @@ comment : true
 
 구글링하다 코틀린 스크립트 예제 [리파지토리](https://github.com/Kotlin/kotlin-script-examples)를 찾았는데, 여긴 정작 `kotlin-scripting-jsr223`을 사용하지 않고있고 `kotlin-scripting-jvm`을 사용하고 있다. 어디까지 뒤져봐야할지 고민이다.
 
-# 문제상황
+## 문제상황
 
 현재 풀어야 하는 문제는
 1. 클라이언트에서 제공하는 스크립트를 해석하여 데이터를 가공해야 한다.
@@ -40,6 +40,6 @@ comment : true
 
 
 
-# References
+## References
 https://discuss.kotlinlang.org/t/embeddable-kotlin-compiler-long-term-memory-leak/16653
 https://discuss.kotlinlang.org/t/kotlin-script-host-embedded-script-compilation/16811

@@ -3,7 +3,7 @@ layout  : wiki
 title   : Spring의 Aspect Oriented Programming(AOP)
 summary : AOP 사용기
 date    : 2021-01-28 17:52:59 +0900
-updated : 2021-02-17 23:09:33 +0900
+updated : 2021-03-06 16:29:13 +0900
 tag     : spring aop aspect-oriented-programming
 toc     : true
 public  : true
@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
-# 관점 지향 프로그래밍은 왜 나오게 됐나?
+## 관점 지향 프로그래밍은 왜 나오게 됐나?
 
 Aspect-Oriented-Programming(AOP)은 관점 지향 프로그래밍이라고도 한다. 객체 지향 프로그래밍처럼 프로그래밍 패러다임 중 하나다.
 
@@ -31,7 +31,7 @@ Aspect-Oriented-Programming(AOP)은 관점 지향 프로그래밍이라고도 �
 
 AOP는 이러한 문제점들을 보완하기 위한 패러다임이다.
 
-# AOP에서 사용하는 용어들
+## AOP에서 사용하는 용어들
 
 - Aspect: AOP에서 사용하는 모듈화의 단위다.
 - Join point: 메소드 실행이나 예외 처리 같은 프로그램의 실행 시점을 뜻한다. 스프링 AOP에서 Join point는 항상 메소드 실행을 의미한다.
@@ -39,7 +39,7 @@ AOP는 이러한 문제점들을 보완하기 위한 패러다임이다.
 - Pointcut: 결정자로 매칭되는 Join point. Point cut은 Point cut 표현식으로 매칭된 Join point에 연결된 Advice가 실행된다.
 - Target object: 하나 혹은 두개 이상의 aspect에 의해 advised된 object. Advised object라고도 부른다. 
 
-# 사용 예
+## 사용 예
 
 ## Before
 
@@ -53,6 +53,6 @@ Join point이 메소드가 실행된 뒤에 동작하는 Advice
 
 메소드의 실행을 감싸서 동작하는 Advice. 메소드의 실행전, 실행후 동작 실행이 가능하고 메소드 실행까지 제어할 수 있다.
 
-# 참조
+## 참조
 
 [Aspect Oriented Programming with Spring](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#aop)

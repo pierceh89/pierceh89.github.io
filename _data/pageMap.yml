@@ -233,10 +233,10 @@ gin-gonic:
 google-java-style-guide:
     type: wiki
     title: '구글 자바 스타일 가이드'
-    summary: '구글 자바 스타일 요약'
+    summary: '구글 표준 자바 코딩 스타일 가이드 번역'
     parent: programming
     url: /wiki/google-java-style-guide
-    updated: '2021-03-03 19:44:13 +0900'
+    updated: '2021-03-04 00:37:53 +0900'
     children: []
 index:
     type: wiki
