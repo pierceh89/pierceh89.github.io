@@ -4,7 +4,7 @@ adsense: false
 ---
 {% assign documents = site.wiki | sort: 'updated' | reverse %}
 <div id="app">
-    <H3 class="indent">최근 변경된 문서</H3>
+    <h1 class="indent">최근 변경된 문서</h1>
     <ul class="post-list">
 {% for doc in documents %}{% if doc.public != false and doc.title != 'wiki' %}
         <li>
