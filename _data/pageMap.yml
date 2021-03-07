@@ -121,7 +121,7 @@
 2018-05-17-naver-ai-hacktathon-review:
     type: blog
     title: '네이버 AI 해커톤 2018 참여 후기'
-    summary: ""
+    summary: '기대하지 않았지만 결선 진출'
     parent: null
     url: /blog/2018/05/17/naver-ai-hacktathon-review
     updated: '2018-05-17'
@@ -188,7 +188,7 @@ ANTLR:
     summary: 'ANTLR을 이용한 DSL 만들기'
     parent: programming
     url: /wiki/ANTLR
-    updated: '2020-09-20 16:51:17 +0900'
+    updated: '2021-03-06 16:28:24 +0900'
     children: []
 book:
     type: wiki
@@ -220,7 +220,7 @@ Generics-covariance:
     summary: '자바, 코틀린이 타입 안전성을 어떻게 보장하는지 알아보자'
     parent: programming
     url: /wiki/Generics-covariance
-    updated: '2021-01-13 13:32:07 +0900'
+    updated: '2021-03-06 16:30:27 +0900'
     children: []
 gin-gonic:
     type: wiki
@@ -228,7 +228,7 @@ gin-gonic:
     summary: null
     parent: programming
     url: /wiki/gin-gonic
-    updated: '2020-08-29 15:25:00 +0900'
+    updated: '2021-03-06 16:30:11 +0900'
     children: []
 google-java-style-guide:
     type: wiki
@@ -252,7 +252,7 @@ jackson-parameterized-type-cast:
     summary: 'type eraser를 극복하자'
     parent: programming
     url: /wiki/jackson-parameterized-type-cast
-    updated: '2020-07-29 19:02:51 +0900'
+    updated: '2021-03-06 16:29:56 +0900'
     children: []
 kotlin-dsl:
     type: wiki
@@ -260,7 +260,7 @@ kotlin-dsl:
     summary: 'kotlin 으로 dsl 만들어 활용하기'
     parent: programming
     url: /wiki/kotlin-dsl
-    updated: '2020-06-06 22:33:49 +0900'
+    updated: '2021-03-06 16:27:16 +0900'
     children: []
 kotlin-script:
     type: wiki
@@ -268,7 +268,7 @@ kotlin-script:
     summary: 'kotlin script engine 사용하기'
     parent: programming
     url: /wiki/kotlin-script
-    updated: '2020-08-29 15:23:29 +0900'
+    updated: '2021-03-06 16:29:25 +0900'
     children: []
 linux:
     type: wiki
@@ -300,7 +300,7 @@ postgres:
     summary: ""
     parent: programming
     url: /wiki/postgres
-    updated: '2020-08-29 15:28:16 +0900'
+    updated: '2021-03-06 16:28:53 +0900'
     children: []
 productivity:
     type: wiki
@@ -324,7 +324,7 @@ shell:
     summary: 'shell command cheat sheet'
     parent: productivity
     url: /wiki/shell
-    updated: '2020-09-11 18:20:27 +0900'
+    updated: '2021-03-06 16:27:52 +0900'
     children: []
 spring-aop:
     type: wiki
@@ -332,7 +332,7 @@ spring-aop:
     summary: 'AOP 사용기'
     parent: programming
     url: /wiki/spring-aop
-    updated: '2021-02-17 23:09:33 +0900'
+    updated: '2021-03-06 16:29:13 +0900'
     children: []
 ubuntu-update-alternatives:
     type: wiki
@@ -340,7 +340,7 @@ ubuntu-update-alternatives:
     summary: ""
     parent: linux
     url: /wiki/ubuntu-update-alternatives
-    updated: '2020-08-22 18:32:32 +0900'
+    updated: '2021-03-06 16:25:59 +0900'
     children: []
 vim:
     type: wiki
