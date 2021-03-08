@@ -4,7 +4,7 @@
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-	<meta http-equiv='content-language' content='ko-kr'>
+	<meta http-equiv='content-language' content='ko'>
 {% if page.layout == 'wiki' or page.layout == 'post' or page.layout == 'page' %}
 	<meta name="description" content="{{ page.content | strip_html | normalize_whitespace | truncate: 160 }}">
 {% elsif site_desc %}
