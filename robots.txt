@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://pierceh89.github.io/sitemap.xml
+#DaumWebMasterTool:b19813642b6e5dc9bca58e01a83e2083d80ab45deaf0d96e4b4fddcd272b7751:/jTrXLVbVkrzm4p/jr6wRg==
