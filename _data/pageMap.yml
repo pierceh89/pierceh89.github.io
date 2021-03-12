@@ -182,6 +182,14 @@
     url: /blog/2020/09/07/nginx-virtual-host
     updated: '2020-09-07T00:11:46+0900'
     children: []
+2021-03-12-bing-seo:
+    type: blog
+    title: 'Bing webmaster를 통한 SEO 개선'
+    summary: '네이버 서치어드바이저가 안 알려주는 부분까지 파헤치기'
+    parent: null
+    url: /blog/2021/03/12/bing-seo
+    updated: '2021-03-12T10:00:33+0900'
+    children: []
 ANTLR:
     type: wiki
     title: 'ANTLR 이용하여 Reverse Polish Notation을 파싱하고 중위표현법으로 변환하기'
