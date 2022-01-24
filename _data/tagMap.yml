@@ -125,6 +125,12 @@ visual-studio-code:
     - {fileName: 2020-09-07-code-server}
 code-server:
     - {fileName: 2020-09-07-code-server}
+bing-webmaster:
+    - {fileName: 2021-03-12-bing-seo}
+naver-searchadvisor:
+    - {fileName: 2021-03-12-bing-seo}
+SEO:
+    - {fileName: 2021-03-12-bing-seo}
 antlr:
     - {fileName: ANTLR}
 dsl:
