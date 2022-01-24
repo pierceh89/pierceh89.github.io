@@ -131,6 +131,14 @@ naver-searchadvisor:
     - {fileName: 2021-03-12-bing-seo}
 SEO:
     - {fileName: 2021-03-12-bing-seo}
+aws:
+    - {fileName: 2022-01-24-aws-saa}
+saa:
+    - {fileName: 2022-01-24-aws-saa}
+solutions-architect-associate:
+    - {fileName: 2022-01-24-aws-saa}
+합격후기:
+    - {fileName: 2022-01-24-aws-saa}
 antlr:
     - {fileName: ANTLR}
 dsl:

@@ -190,6 +190,14 @@
     url: /blog/2021/03/12/bing-seo
     updated: '2021-03-12T10:00:33+0900'
     children: []
+2022-01-24-aws-saa:
+    type: blog
+    title: 'AWS SAA 합격 후기'
+    summary: '문제를 많이 풀어보자'
+    parent: null
+    url: /blog/2022/01/24/aws-saa
+    updated: '2022-01-24 21:54:00 +0900'
+    children: []
 ANTLR:
     type: wiki
     title: 'ANTLR 이용하여 Reverse Polish Notation을 파싱하고 중위표현법으로 변환하기'
