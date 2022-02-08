@@ -139,6 +139,13 @@ solutions-architect-associate:
     - {fileName: 2022-01-24-aws-saa}
 합격후기:
     - {fileName: 2022-01-24-aws-saa}
+iptables:
+    - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
+firewall:
+    - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
+linux:
+    - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
+    - {fileName: linux}
 antlr:
     - {fileName: ANTLR}
 dsl:
@@ -189,11 +196,11 @@ jsr223:
     - {fileName: kotlin-script}
 unix:
     - {fileName: linux}
-linux:
-    - {fileName: linux}
 machine-learning:
     - {fileName: logistic-regression}
     - {fileName: machine-learning}
+network:
+    - {fileName: network}
 postgresql:
     - {fileName: postgres}
 productivity:

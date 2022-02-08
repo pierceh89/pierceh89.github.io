@@ -198,6 +198,14 @@
     url: /blog/2022/01/24/aws-saa
     updated: '2022-01-24 21:54:00 +0900'
     children: []
+A-Deep-Dive-into-Iptables-and-Netfilter-Architecture:
+    type: wiki
+    title: 'A Deep Dive into Iptables and Netfilter Architecture 요약 (WIP)'
+    summary: 'Iptables 와 netfilter 이해하기'
+    parent: network
+    url: /wiki/A-Deep-Dive-into-Iptables-and-Netfilter-Architecture
+    updated: '2022-02-08 11:06:05 +0900'
+    children: []
 ANTLR:
     type: wiki
     title: 'ANTLR 이용하여 Reverse Polish Notation을 파싱하고 중위표현법으로 변환하기'
@@ -310,6 +318,14 @@ machine-learning:
     url: /wiki/machine-learning
     updated: '2020-05-31 19:35:32 +0900'
     children: [logistic-regression]
+network:
+    type: wiki
+    title: network
+    summary: ""
+    parent: index
+    url: /wiki/network
+    updated: '2022-01-28 13:29:50 +0900'
+    children: [A-Deep-Dive-into-Iptables-and-Netfilter-Architecture]
 postgres:
     type: wiki
     title: ""

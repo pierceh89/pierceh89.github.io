@@ -16,6 +16,7 @@
 - Effective-Debugging
 - Effective-series
 - Effective-시리즈
+- firewall
 - gin-gonic
 - github
 - golang
@@ -24,6 +25,7 @@
 - https
 - In-action-series
 - In-action-시리즈
+- iptables
 - jackson
 - java
 - java-style
@@ -37,6 +39,7 @@
 - machine-learning
 - nas
 - naver-searchadvisor
+- network
 - nginx
 - nlp
 - nsml
