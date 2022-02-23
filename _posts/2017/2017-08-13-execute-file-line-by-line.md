@@ -6,7 +6,7 @@ date    : 2017-08-13
 tag     : shell-script
 toc     : false
 comment : true
-public  : true
+public  : false
 ---
 
 The original content is from [here](https://linuxprograms.wordpress.com/2010/12/14/shell-script-execute-command-every-line-file/)
