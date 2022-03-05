@@ -53,9 +53,33 @@ latex   : false
 
 `netfilter`커널 훅은 다섯 개 뿐이라서 여러 테이블의 체인이 각 훅에 등록된다. 예를 들어 세 개 테이블은 `PREROUTING` 체인이 있다. 이러한 체인이 연결된 `NF_IP_PRE_ROUTING` 후크에 등록되면 각 테이블의 `PREROUTING` 체인이 호출되는 순서를 지정하는 우선 순위를 지정한다. 가장 높은 우선 순위의 `PREROUTING` 체인 내부의 각 규칙은 다음 `PREROUTING` 체인으로 이동하기 전에 순차적으로 평가된다.
 
-체인은 관리자에게 패킷의 이동 경로
-
 ## Which Tables are Available?
+
+잠시 뒤로 물러나서 `iptables`가 제공하는 테이블들을 살펴보자. 이 테이블들은 패킷을 평가하기 위해 관심 영역으로 구성된 고유한 규칙 집합을 나타낸다.
+
+### The Filter Table
+
+필터 테이블은 `iptables`에서 가장 널리 쓰이는 테이블 중 하나이다. 필터 테이블은 패킷을 도착지로 계속 보낼지 또느 요청으 거부할지 결정하는데 사용한다.
+
+### The NAT Table
+
+NAT 테이블은 network address translation 규칙을 구현하기 위해 사용한다. 패킷이 네트워크 스택에 들어오면 이 테이블의 규칙은 패킷의 소스나 목적지 주소를 어떻게 수정할지 결정한다. 이 테이블은 직접 액세스가 불가능하 경우 패킷을 네트워크로 라우팅하는데 자주 사용한다.
+
+### The Mangle Table
+
+Mangle 테이블은 패킷의 IP 헤더를 변경하는데 사용한다. 예를 들어 TTL(Time To Live)을 조정하거나 패킷이 유지할 수 있는 네트워크 홉 수를 늘리거나 줄일 수 있다. 
+
+This table can also place an internal kernel “mark” on the packet for further processing in other tables and by other networking tools. This mark does not touch the actual packet, but adds the mark to the kernel’s representation of the packet.
+
+### The Raw Table
+
+`iptables`는 패킷이 이전 패킷과의 관계와 관련하여 평가된다느 점에서 stateful하다. `netfilter` 프레임워크 위에 만들어진 연결 추저 기능은 `iptables`가 진행 중인 연결의 일부로 패킷이나 세션을 보도록 허용한다. 연결 추적 로직은 주로 패킷이 네트워크 인터페이스에 도달한 직후 적용된다.
+
+Raw 테이블은 굉장히 좁게 정의된 함수가 있다. 이것의 유일한 목적은 연결 추적을 거부하기 위해 패킷을 표시하느 매커니즘으 제공하는 것이다.
+
+### The Security Table
+
+Security 테이블은 패킷에 내부 SELinux 보안 컨텍스트 표시르 설정하는 데 사용되며, 이는 SELinux 또는 SELinux 보안 컨텍스트를 해석할 수 있는 기타 시스템이 패킷으 처리하느 방식에 영향을 미친다. 이러한 표시는 패킷 또느 연결별로 적용할 수 있다.
 
 ## Which Chains are Implemented in Each Table?
 
