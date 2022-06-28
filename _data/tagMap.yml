@@ -130,6 +130,10 @@ solutions-architect-associate:
     - {fileName: 2022-02-23-this-is-android}
 코틀린:
     - {fileName: 2022-02-23-this-is-android}
+구글애널리틱스4:
+    - {fileName: 2022-06-29-ga4}
+GA4:
+    - {fileName: 2022-06-29-ga4}
 iptables:
     - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
 firewall:

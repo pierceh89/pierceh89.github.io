@@ -158,6 +158,14 @@
     url: /blog/2022/02/23/this-is-android
     updated: '2022-02-23 20:48:00 +0900'
     children: []
+2022-06-29-ga4:
+    type: blog
+    title: '고객을 끌어오는 구글 애널리틱스4, 문준영 지음, 한빛미디어, 2022'
+    summary: '최신 안드로이드 개발환경에 유튜브 강의도 제공하는 혜자스러운 책'
+    parent: null
+    url: /blog/2022/06/29/ga4
+    updated: '2022-06-29 00:16:00 +0900'
+    children: []
 A-Deep-Dive-into-Iptables-and-Netfilter-Architecture:
     type: wiki
     title: 'A Deep Dive into Iptables and Netfilter Architecture 요약 (WIP)'

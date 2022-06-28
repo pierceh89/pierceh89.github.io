@@ -1,5 +1,6 @@
 - 개발환경설정
 - 공변
+- 구글애널리틱스4
 - 대용량-시스템-구축
 - 딥러닝-입문
 - 딥러닝-책-추천
@@ -45,6 +46,7 @@
 - Effective-Debugging
 - Effective-series
 - firewall
+- GA4
 - gin-gonic
 - github
 - golang
