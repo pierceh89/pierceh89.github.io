@@ -161,10 +161,18 @@
 2022-06-29-ga4:
     type: blog
     title: '고객을 끌어오는 구글 애널리틱스4, 문준영 지음, 한빛미디어, 2022'
-    summary: '최신 안드로이드 개발환경에 유튜브 강의도 제공하는 혜자스러운 책'
+    summary: '실습을 통해 배우는 구글 애널리틱스4 완벽 가이드'
     parent: null
     url: /blog/2022/06/29/ga4
     updated: '2022-06-29 00:16:00 +0900'
+    children: []
+2022-06-30-sa101:
+    type: blog
+    title: '소프트웨어 아키텍처 101, 마크 리처즈, 닐포드 지음, 이일웅 옮김, 한빛미디어, 2022'
+    summary: '엔지니어링 접근 방식으로 배우는 소프트웨어 아키텍처 기초'
+    parent: null
+    url: /blog/2022/06/30/sa101
+    updated: '2022-06-30 01:31:00 +0900'
     children: []
 A-Deep-Dive-into-Iptables-and-Netfilter-Architecture:
     type: wiki

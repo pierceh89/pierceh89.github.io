@@ -134,6 +134,8 @@ solutions-architect-associate:
     - {fileName: 2022-06-29-ga4}
 GA4:
     - {fileName: 2022-06-29-ga4}
+소프트웨어아키텍처101:
+    - {fileName: 2022-06-30-sa101}
 iptables:
     - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
 firewall:
