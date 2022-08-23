@@ -3,11 +3,11 @@ layout  : wiki
 title   : Logistic Regression의 Gradient descent 공식 유도
 summary : 
 date    : 2017-03-01 12:20:00 +0900
-updated : 2020-05-31 13:57:18 +0900
+updated : 2022-07-20 22:04:53 +0900
 tag     : machine-learning
 toc     : false
 public  : true
-parent  : [[machine-learning]]
+parent  : [[etc]]
 latex   : true
 ---
 * TOC

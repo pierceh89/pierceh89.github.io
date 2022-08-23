@@ -178,9 +178,9 @@ A-Deep-Dive-into-Iptables-and-Netfilter-Architecture:
     type: wiki
     title: 'A Deep Dive into Iptables and Netfilter Architecture 요약 (WIP)'
     summary: 'Iptables 와 netfilter 이해하기'
-    parent: network
+    parent: Articles
     url: /wiki/A-Deep-Dive-into-Iptables-and-Netfilter-Architecture
-    updated: '2022-02-08 11:06:05 +0900'
+    updated: '2022-07-20 22:47:04 +0900'
     children: []
 ANTLR:
     type: wiki
@@ -190,29 +190,77 @@ ANTLR:
     url: /wiki/ANTLR
     updated: '2021-03-06 16:28:24 +0900'
     children: []
-book:
+Articles:
+    type: wiki
+    title: Articles
+    summary: '포스팅 등 웹문서 모음'
+    parent: index
+    url: /wiki/Articles
+    updated: '2022-07-20 22:19:31 +0900'
+    children: [A-Deep-Dive-into-Iptables-and-Netfilter-Architecture]
+Book:
     type: wiki
     title: '내가 읽은 책 모음'
     summary: ""
     parent: index
-    url: /wiki/book
+    url: /wiki/Book
     updated: '2021-02-16 22:35:37 +0900'
-    children: []
-computer-graphics:
+    children: [Fundamentals-of-Software-Architecture, System-Design-Interview]
+build-cache:
     type: wiki
-    title: 'Computer Graphics'
-    summary: null
-    parent: index
-    url: /wiki/computer-graphics
-    updated: '2020-05-31 19:35:17 +0900'
-    children: [Coordinate-Transformation]
+    title: '에이전트의 빌드 캐시 구성'
+    summary: ""
+    parent: Jenkins
+    url: /wiki/build-cache
+    updated: '2022-07-20 22:44:28 +0900'
+    children: []
+compare-with-jenkins:
+    type: wiki
+    title: 'Github actions를 jenkins와 비교'
+    summary: ""
+    parent: Github-actions
+    url: /wiki/compare-with-jenkins
+    updated: '2022-07-20 22:36:37 +0900'
+    children: []
 Coordinate-Transformation:
     type: wiki
     title: 'Coordinate Transformation'
     summary: null
-    parent: computer-graphics
+    parent: etc
     url: /wiki/Coordinate-Transformation
-    updated: '2020-05-31 13:50:32 +0900'
+    updated: '2022-07-20 22:04:28 +0900'
+    children: []
+Devops:
+    type: wiki
+    title: Devops
+    summary: 'devops와 관련된 툴, 용어 등'
+    parent: index
+    url: /wiki/Devops
+    updated: '2022-07-20 22:27:46 +0900'
+    children: [Github-actions, Jenkins]
+environment-and-secret:
+    type: wiki
+    title: '시크릿과 Environment 사용'
+    summary: ""
+    parent: Github-actions
+    url: /wiki/environment-and-secret
+    updated: '2022-07-20 22:42:07 +0900'
+    children: []
+etc:
+    type: wiki
+    title: ETC
+    summary: '지금 관리할 시간이 없는 것들'
+    parent: index
+    url: /wiki/etc
+    updated: '2022-07-20 22:14:51 +0900'
+    children: [Coordinate-Transformation, logistic-regression, postgres]
+Fundamentals-of-Software-Architecture:
+    type: wiki
+    title: '소프트웨어 아키텍처 101'
+    summary: ""
+    parent: Book
+    url: /wiki/Fundamentals-of-Software-Architecture
+    updated: '2022-07-20 22:49:26 +0900'
     children: []
 Generics-covariance:
     type: wiki
@@ -222,14 +270,14 @@ Generics-covariance:
     url: /wiki/Generics-covariance
     updated: '2021-03-06 16:30:27 +0900'
     children: []
-gin-gonic:
+Github-actions:
     type: wiki
-    title: gin-gonic
-    summary: null
-    parent: programming
-    url: /wiki/gin-gonic
-    updated: '2021-03-06 16:30:11 +0900'
-    children: []
+    title: 'Github actions'
+    summary: 'Github actions 사용과 관련된 것들'
+    parent: Devops
+    url: /wiki/Github-actions
+    updated: '2022-07-20 22:50:59 +0900'
+    children: [compare-with-jenkins, environment-and-secret, gradle-build, k8s-deployment, reusable-workflow]
 google-java-style-guide:
     type: wiki
     title: '구글 자바 스타일 가이드'
@@ -237,6 +285,14 @@ google-java-style-guide:
     parent: programming
     url: /wiki/google-java-style-guide
     updated: '2021-03-04 00:37:53 +0900'
+    children: []
+gradle-build:
+    type: wiki
+    title: 'Gradle 빌드 워크플로우'
+    summary: ""
+    parent: Github-actions
+    url: /wiki/gradle-build
+    updated: '2022-07-20 22:38:24 +0900'
     children: []
 index:
     type: wiki
@@ -254,6 +310,30 @@ jackson-parameterized-type-cast:
     url: /wiki/jackson-parameterized-type-cast
     updated: '2021-03-06 16:29:56 +0900'
     children: []
+Jenkins:
+    type: wiki
+    title: Jenkins
+    summary: '젠킨스와 관련된 것들'
+    parent: Devops
+    url: /wiki/Jenkins
+    updated: '2022-07-20 22:50:53 +0900'
+    children: [build-cache, jenkins-kubernetes, one-agent-per-node]
+jenkins-kubernetes:
+    type: wiki
+    title: 'jenkins kubernetes'
+    summary: ""
+    parent: Jenkins
+    url: /wiki/jenkins-kubernetes
+    updated: '2022-07-20 22:42:48 +0900'
+    children: []
+k8s-deployment:
+    type: wiki
+    title: 'k8s 배포 워크플로우'
+    summary: ""
+    parent: Github-actions
+    url: /wiki/k8s-deployment
+    updated: '2022-07-20 22:39:37 +0900'
+    children: []
 kotlin-dsl:
     type: wiki
     title: kotlin-dsl
@@ -270,69 +350,53 @@ kotlin-script:
     url: /wiki/kotlin-script
     updated: '2021-03-06 16:29:25 +0900'
     children: []
-linux:
-    type: wiki
-    title: Linux
-    summary: ""
-    parent: index
-    url: /wiki/linux
-    updated: '2020-08-22 17:17:33 +0900'
-    children: [ubuntu-update-alternatives]
 logistic-regression:
     type: wiki
     title: 'Logistic Regression의 Gradient descent 공식 유도'
     summary: ""
-    parent: machine-learning
+    parent: etc
     url: /wiki/logistic-regression
-    updated: '2020-05-31 13:57:18 +0900'
+    updated: '2022-07-20 22:04:53 +0900'
     children: []
-machine-learning:
+one-agent-per-node:
     type: wiki
-    title: 'Machine Learning'
-    summary: null
-    parent: index
-    url: /wiki/machine-learning
-    updated: '2020-05-31 19:35:32 +0900'
-    children: [logistic-regression]
-network:
-    type: wiki
-    title: network
+    title: '노드에 젠킨스 에이전트 하나씩만 띄울 수 있도록 설정하기'
     summary: ""
-    parent: index
-    url: /wiki/network
-    updated: '2022-01-28 13:29:50 +0900'
-    children: [A-Deep-Dive-into-Iptables-and-Netfilter-Architecture]
+    parent: Jenkins
+    url: /wiki/one-agent-per-node
+    updated: '2022-07-20 22:45:39 +0900'
+    children: []
 postgres:
     type: wiki
     title: ""
     summary: ""
-    parent: programming
+    parent: etc
     url: /wiki/postgres
-    updated: '2021-03-06 16:28:53 +0900'
+    updated: '2022-07-20 22:14:17 +0900'
     children: []
-productivity:
-    type: wiki
-    title: productivity
-    summary: null
-    parent: index
-    url: /wiki/productivity
-    updated: '2020-08-29 15:24:44 +0900'
-    children: [shell, vim]
-programming:
+Programming:
     type: wiki
     title: programming
     summary: null
     parent: index
-    url: /wiki/programming
+    url: /wiki/Programming
     updated: '2020-08-29 15:24:33 +0900'
-    children: [ANTLR, Generics-covariance, gin-gonic, google-java-style-guide, jackson-parameterized-type-cast, kotlin-dsl, kotlin-script, postgres, spring-aop]
+    children: []
+reusable-workflow:
+    type: wiki
+    title: '재사용 가능한 워크플로우'
+    summary: ""
+    parent: Github-actions
+    url: /wiki/reusable-workflow
+    updated: '2022-07-20 22:40:44 +0900'
+    children: []
 shell:
     type: wiki
     title: shell
     summary: 'shell command cheat sheet'
-    parent: productivity
+    parent: Tools
     url: /wiki/shell
-    updated: '2021-03-06 16:27:52 +0900'
+    updated: '2022-07-20 22:50:39 +0900'
     children: []
 spring-aop:
     type: wiki
@@ -342,19 +406,35 @@ spring-aop:
     url: /wiki/spring-aop
     updated: '2021-03-06 16:29:13 +0900'
     children: []
+System-Design-Interview:
+    type: wiki
+    title: '대규모 시스템 설계 기초'
+    summary: ""
+    parent: Book
+    url: /wiki/System-Design-Interview
+    updated: '2022-07-20 22:49:46 +0900'
+    children: []
+Tools:
+    type: wiki
+    title: Tools
+    summary: 도구모음
+    parent: index
+    url: /wiki/Tools
+    updated: '2022-07-20 22:16:53 +0900'
+    children: [shell, ubuntu-update-alternatives, vim]
 ubuntu-update-alternatives:
     type: wiki
     title: 'ubuntu update-alternatives 명령어 요약'
     summary: ""
-    parent: linux
+    parent: Tools
     url: /wiki/ubuntu-update-alternatives
-    updated: '2021-03-06 16:25:59 +0900'
+    updated: '2022-07-20 22:50:46 +0900'
     children: []
 vim:
     type: wiki
     title: vim
     summary: 'vim 배우면서 찾은 vim 사용팁들 정리'
-    parent: productivity
+    parent: Tools
     url: /wiki/vim
-    updated: '2020-09-02 17:06:09 +0900'
+    updated: '2022-07-20 22:50:34 +0900'
     children: []

@@ -3,11 +3,11 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2020-08-29 14:41:15 +0900
-updated : 2021-03-06 16:28:53 +0900
+updated : 2022-07-20 22:14:17 +0900
 tag     : postgresql
 toc     : true
 public  : true
-parent  : [[programming]]
+parent  : [[etc]]
 latex   : false
 ---
 * TOC

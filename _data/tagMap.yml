@@ -71,7 +71,6 @@ hackathon:
     - {fileName: 2018-05-17-naver-ai-hacktathon-review}
 computer-graphics:
     - {fileName: 2018-06-22-smallpt-in-scala}
-    - {fileName: computer-graphics}
     - {fileName: Coordinate-Transformation}
 rendering:
     - {fileName: 2018-06-22-smallpt-in-scala}
@@ -142,7 +141,6 @@ firewall:
     - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
 linux:
     - {fileName: A-Deep-Dive-into-Iptables-and-Netfilter-Architecture}
-    - {fileName: linux}
 antlr:
     - {fileName: ANTLR}
 dsl:
@@ -153,9 +151,11 @@ parser:
 reverse-polish-notation:
     - {fileName: ANTLR}
 book:
-    - {fileName: book}
+    - {fileName: Book}
 책리뷰:
-    - {fileName: book}
+    - {fileName: Book}
+etc:
+    - {fileName: etc}
 java:
     - {fileName: Generics-covariance}
 kotlin:
@@ -170,13 +170,6 @@ contravariant:
     - {fileName: Generics-covariance}
 반공변:
     - {fileName: Generics-covariance}
-programming:
-    - {fileName: gin-gonic}
-    - {fileName: programming}
-golang:
-    - {fileName: gin-gonic}
-gin-gonic:
-    - {fileName: gin-gonic}
 google:
     - {fileName: google-java-style-guide}
 java-style:
@@ -191,17 +184,12 @@ kotlin-script:
     - {fileName: kotlin-script}
 jsr223:
     - {fileName: kotlin-script}
-unix:
-    - {fileName: linux}
 machine-learning:
     - {fileName: logistic-regression}
-    - {fileName: machine-learning}
-network:
-    - {fileName: network}
 postgresql:
     - {fileName: postgres}
-productivity:
-    - {fileName: productivity}
+programming:
+    - {fileName: Programming}
 shell:
     - {fileName: shell}
 bash:

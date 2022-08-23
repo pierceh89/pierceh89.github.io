@@ -3,11 +3,11 @@ layout  : wiki
 title   : vim
 summary : vim 배우면서 찾은 vim 사용팁들 정리
 date    : 2020-06-03T09:47:23+0900
-updated : 2020-09-02 17:06:09 +0900
+updated : 2022-07-20 22:50:34 +0900
 tag     : vim
 toc     : true
 public  : true
-parent  : [[productivity]]
+parent  : [[Tools]]
 latex   : false
 ---
 * TOC

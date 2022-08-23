@@ -3,11 +3,11 @@ layout  : wiki
 title   : Coordinate Transformation
 summary :
 date    : 2020-05-31 13:27:00 +0900
-updated : 2020-05-31 13:50:32 +0900
+updated : 2022-07-20 22:04:28 +0900
 tag     : computer-graphics
 toc     : true
 public  : true
-parent  : [[computer-graphics]]
+parent  : [[etc]]
 latex   : true
 ---
 * TOC

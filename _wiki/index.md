@@ -8,40 +8,51 @@ comment : false
 regenerate: true
 ---
 
-## [[programming]]
+## [[Programming]]
 
+* [[spring-aop]]
 * [[kotlin-dsl]]
-* [[kafka]]
 * [[kotlin-script]]
 * [[jackson-parameterized-type-cast]]
-* [[spring-aop]]
-* [[gin-gonic]]
-* [[postgres]]
-* [[ANTLR]]
 * [[Generics-covariance]]{제네릭의 변성}
+* [[ANTLR]]
 * [[google-java-style-guide]]
 
-## [[productivity]]
+## [[Devops]]
+
+### [[Github-actions]]
+
+* [[compare-with-jenkins]]{Github actions를 jenkins와 비교}
+* [[gradle-build]]{Gradle 빌드 워크플로우}
+* [[k8s-deployment]]{k8s 배포 워크플로우}
+* [[reusable-workflow]]{재사용 가능한 워크플로우}
+* [[environment-and-secret]]{시크릿과 Environment 사용}
+* [[github-packages]]
+
+### [[Jenkins]]
+
+* [[jenkins-kubernetes]]
+* [[build-cache]]
+* [[one-agent-per-node]]
+
+## [[Tools]]
 
 * [[vim]]
 * [[shell]]
-
-## [[computer-graphics]]
-
-* [[Coordinate-Transformation]]
-
-## [[machine-learning]]
-
-* [[logistic-regression]]
-
-## [[linux]]
-
 * [[ubuntu-update-alternatives]]
 
-## [[network]]
+## [[Book]]
+
+* [[Fundamentals-of-Software-Architecture]]{소프트웨어 아키텍처 101}
+* [[System-Design-Interview]]{대규모 시스템 설계 기초}
+
+## [[Articles]]
 
 * [[A-Deep-Dive-into-Iptables-and-Netfilter-Architecture]]
 
-## [[book]]
+## [[etc]]
 
-
+* [[Coordinate-Transformation]]
+* [[logistic-regression]]
+* [[kafka]]
+* [[postgres]]

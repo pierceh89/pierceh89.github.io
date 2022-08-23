@@ -3,11 +3,11 @@ layout  : wiki
 title   : ubuntu update-alternatives 명령어 요약
 summary : 
 date    : 2020-08-22 17:14:12 +0900
-updated : 2021-03-06 16:25:59 +0900
+updated : 2022-07-20 22:50:46 +0900
 tag     : ubuntu update-alternatives ubuntu-command
 toc     : true
 public  : true
-parent  : [[linux]]
+parent  : [[Tools]]
 latex   : false
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : wiki
 title   : kafka
 summary : kafka study
 date    : 2020-06-11T18:14:13+0900
-updated : 2020-06-18 09:35:22 +0900
+updated : 2022-07-20 22:14:06 +0900
 tag     : kafka
 toc     : true
 public  : false
-parent  : [[programming]]
+parent  : [[etc]]
 latex   : false
 comment : true
 ---

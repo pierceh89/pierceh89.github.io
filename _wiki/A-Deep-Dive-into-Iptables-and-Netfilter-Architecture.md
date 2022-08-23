@@ -3,11 +3,11 @@ layout  : wiki
 title   : A Deep Dive into Iptables and Netfilter Architecture 요약 (WIP)
 summary : Iptables 와 netfilter 이해하기
 date    : 2022-01-28 13:32:01 +0900
-updated : 2022-02-08 11:06:05 +0900
+updated : 2022-07-20 22:47:04 +0900
 tag     : iptables firewall linux
 toc     : true
 public  : true
-parent  : [[network]]
+parent  : [[Articles]]
 latex   : false
 ---
 * TOC

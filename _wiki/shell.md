@@ -3,11 +3,11 @@ layout  : wiki
 title   : shell
 summary : shell command cheat sheet
 date    : 2020-06-12T11:19:33+0900
-updated : 2021-03-06 16:27:52 +0900
+updated : 2022-07-20 22:50:39 +0900
 tag     : shell bash zsh
 toc     : true
 public  : true
-parent  : [[productivity]]
+parent  : [[Tools]]
 latex   : false
 ---
 * TOC
