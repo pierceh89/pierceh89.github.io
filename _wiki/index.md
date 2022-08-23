@@ -31,8 +31,8 @@ regenerate: true
 
 ### [[Jenkins]]
 
-* [[jenkins-kubernetes]]
-* [[build-cache]]
+* [[jenkins-kubernetes]]{kubernetes 클러스터에 젠킨스 설치해서 사용하기}
+* [[build-cache]]{젠킨스 에이전트의 빌드 캐시 구성}
 * [[one-agent-per-node]]{노드에 젠킨스 에이전트 하나씩만 띄울 수 있도록 설정하기}
 
 ## [[Tools]]
