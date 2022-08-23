@@ -33,7 +33,7 @@ regenerate: true
 
 * [[jenkins-kubernetes]]
 * [[build-cache]]
-* [[one-agent-per-node]]
+* [[one-agent-per-node]]{노드에 젠킨스 에이전트 하나씩만 띄울 수 있도록 설정하기}
 
 ## [[Tools]]
 
