@@ -208,19 +208,19 @@ Book:
     children: [Fundamentals-of-Software-Architecture, System-Design-Interview]
 build-cache:
     type: wiki
-    title: '에이전트의 빌드 캐시 구성'
-    summary: ""
+    title: '젠킨스 에이전트의 빌드 캐시 구성'
+    summary: 'cache lock을 우회해보자'
     parent: Jenkins
     url: /wiki/build-cache
-    updated: '2022-07-20 22:44:28 +0900'
+    updated: '2022-08-23 21:06:00 +0900'
     children: []
 compare-with-jenkins:
     type: wiki
-    title: 'Github actions를 jenkins와 비교'
-    summary: ""
+    title: 'Github actions를 Jenkins와 비교'
+    summary: 'Github 안에서 모두 해결하자'
     parent: Github-actions
     url: /wiki/compare-with-jenkins
-    updated: '2022-07-20 22:36:37 +0900'
+    updated: '2022-10-21 11:08:22 +0900'
     children: []
 Coordinate-Transformation:
     type: wiki
@@ -273,11 +273,19 @@ Generics-covariance:
 Github-actions:
     type: wiki
     title: 'Github actions'
-    summary: 'Github actions 사용과 관련된 것들'
+    summary: 'Github 하고싶은거 다 해'
     parent: Devops
     url: /wiki/Github-actions
-    updated: '2022-07-20 22:50:59 +0900'
-    children: [compare-with-jenkins, environment-and-secret, gradle-build, k8s-deployment, reusable-workflow]
+    updated: '2022-07-23 00:08:06 +0900'
+    children: [compare-with-jenkins, environment-and-secret, github-packages, gradle-build, k8s-deployment, reusable-workflow]
+github-packages:
+    type: wiki
+    title: 'Github packages'
+    summary: '이제 package도 github 안에서 관리하자'
+    parent: Github-actions
+    url: /wiki/github-packages
+    updated: '2022-10-23 18:32:01 +0900'
+    children: []
 google-java-style-guide:
     type: wiki
     title: '구글 자바 스타일 가이드'
@@ -320,11 +328,11 @@ Jenkins:
     children: [build-cache, jenkins-kubernetes, one-agent-per-node]
 jenkins-kubernetes:
     type: wiki
-    title: 'jenkins kubernetes'
-    summary: ""
+    title: 'kubernetes 클러스터에 젠킨스 설치해서 사용하기'
+    summary: '컨테이너를 사용해서 CI/CD 파이프라인 구축하기'
     parent: Jenkins
     url: /wiki/jenkins-kubernetes
-    updated: '2022-07-20 22:42:48 +0900'
+    updated: '2022-08-23 22:05:27 +0900'
     children: []
 k8s-deployment:
     type: wiki
@@ -361,10 +369,10 @@ logistic-regression:
 one-agent-per-node:
     type: wiki
     title: '노드에 젠킨스 에이전트 하나씩만 띄울 수 있도록 설정하기'
-    summary: ""
+    summary: 'Jenkins-kubernetes용 gradle agent 만들기'
     parent: Jenkins
     url: /wiki/one-agent-per-node
-    updated: '2022-07-20 22:45:39 +0900'
+    updated: '2022-08-23 17:26:39 +0900'
     children: []
 postgres:
     type: wiki

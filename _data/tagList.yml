@@ -12,6 +12,7 @@
 - computer-graphics
 - contravariant
 - covariant
+- devops
 - dsl
 - Effective-Debugging
 - Effective-series
@@ -20,7 +21,10 @@
 - firewall
 - GA4
 - github
+- github-actions
+- github-packages
 - google
+- gradle
 - hackathon
 - https
 - In-action-series
@@ -30,9 +34,12 @@
 - java
 - java-style
 - Java8-in-action
+- jenkins
+- jenkins-agent
 - jsr223
 - kotlin
 - kotlin-script
+- kubernetes
 - lets-encrypt
 - letsencrypt
 - linux
@@ -45,6 +52,8 @@
 - openmediavault
 - parameterized-type
 - parser
+- podAffinity
+- podAntiAffinity
 - postgresql
 - Pro-Spring-Boot
 - programming

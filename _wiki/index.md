@@ -22,12 +22,12 @@ regenerate: true
 
 ### [[Github-actions]]
 
-* [[compare-with-jenkins]]{Github actions를 jenkins와 비교}
+* [[compare-with-jenkins]]{Github actions와 Jenkins 비교}
 * [[gradle-build]]{Gradle 빌드 워크플로우}
 * [[k8s-deployment]]{k8s 배포 워크플로우}
 * [[reusable-workflow]]{재사용 가능한 워크플로우}
 * [[environment-and-secret]]{시크릿과 Environment 사용}
-* [[github-packages]]
+* [[github-packages]]{Github packages로 Gradle Registry 사용}
 
 ### [[Jenkins]]
 

@@ -82,6 +82,8 @@ blog:
     - {fileName: 2020-06-03-vimwiki-blog}
 github:
     - {fileName: 2020-06-03-vimwiki-blog}
+    - {fileName: compare-with-jenkins}
+    - {fileName: github-packages}
 raspberry-pi:
     - {fileName: 2020-09-02-rpi-nas}
 라즈베리파이:
@@ -154,6 +156,17 @@ book:
     - {fileName: Book}
 책리뷰:
     - {fileName: Book}
+jenkins:
+    - {fileName: build-cache}
+    - {fileName: compare-with-jenkins}
+    - {fileName: jenkins-kubernetes}
+    - {fileName: one-agent-per-node}
+jenkins-agent:
+    - {fileName: build-cache}
+gradle:
+    - {fileName: build-cache}
+github-actions:
+    - {fileName: compare-with-jenkins}
 etc:
     - {fileName: etc}
 java:
@@ -170,6 +183,8 @@ contravariant:
     - {fileName: Generics-covariance}
 반공변:
     - {fileName: Generics-covariance}
+github-packages:
+    - {fileName: github-packages}
 google:
     - {fileName: google-java-style-guide}
 java-style:
@@ -180,12 +195,20 @@ jackson:
     - {fileName: jackson-parameterized-type-cast}
 parameterized-type:
     - {fileName: jackson-parameterized-type-cast}
+kubernetes:
+    - {fileName: jenkins-kubernetes}
+devops:
+    - {fileName: jenkins-kubernetes}
 kotlin-script:
     - {fileName: kotlin-script}
 jsr223:
     - {fileName: kotlin-script}
 machine-learning:
     - {fileName: logistic-regression}
+podAffinity:
+    - {fileName: one-agent-per-node}
+podAntiAffinity:
+    - {fileName: one-agent-per-node}
 postgresql:
     - {fileName: postgres}
 programming:
