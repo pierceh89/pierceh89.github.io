@@ -82,7 +82,6 @@ blog:
     - {fileName: 2020-06-03-vimwiki-blog}
 github:
     - {fileName: 2020-06-03-vimwiki-blog}
-    - {fileName: compare-with-jenkins}
     - {fileName: github-packages}
 raspberry-pi:
     - {fileName: 2020-09-02-rpi-nas}
@@ -158,15 +157,12 @@ book:
     - {fileName: Book}
 jenkins:
     - {fileName: build-cache}
-    - {fileName: compare-with-jenkins}
     - {fileName: jenkins-kubernetes}
     - {fileName: one-agent-per-node}
 jenkins-agent:
     - {fileName: build-cache}
 gradle:
     - {fileName: build-cache}
-github-actions:
-    - {fileName: compare-with-jenkins}
 etc:
     - {fileName: etc}
 java:
@@ -183,6 +179,10 @@ contravariant:
     - {fileName: Generics-covariance}
 반공변:
     - {fileName: Generics-covariance}
+github-actions:
+    - {fileName: github-actions-workflow}
+github-actions-workflows:
+    - {fileName: github-actions-workflow}
 github-packages:
     - {fileName: github-packages}
 google:

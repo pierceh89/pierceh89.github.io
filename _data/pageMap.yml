@@ -214,14 +214,6 @@ build-cache:
     url: /wiki/build-cache
     updated: '2022-08-23 21:06:00 +0900'
     children: []
-compare-with-jenkins:
-    type: wiki
-    title: 'Github actions를 Jenkins와 비교'
-    summary: 'Github 안에서 모두 해결하자'
-    parent: Github-actions
-    url: /wiki/compare-with-jenkins
-    updated: '2022-10-21 11:08:22 +0900'
-    children: []
 Coordinate-Transformation:
     type: wiki
     title: 'Coordinate Transformation'
@@ -238,14 +230,6 @@ Devops:
     url: /wiki/Devops
     updated: '2022-07-20 22:27:46 +0900'
     children: [Github-actions, Jenkins]
-environment-and-secret:
-    type: wiki
-    title: '시크릿과 Environment 사용'
-    summary: ""
-    parent: Github-actions
-    url: /wiki/environment-and-secret
-    updated: '2022-07-20 22:42:07 +0900'
-    children: []
 etc:
     type: wiki
     title: ETC
@@ -277,7 +261,15 @@ Github-actions:
     parent: Devops
     url: /wiki/Github-actions
     updated: '2022-07-23 00:08:06 +0900'
-    children: [compare-with-jenkins, environment-and-secret, github-packages, gradle-build, k8s-deployment, reusable-workflow]
+    children: [github-actions-workflow, github-packages]
+github-actions-workflow:
+    type: wiki
+    title: 'Github 워크플로우'
+    summary: 'Github workflows를 이용해서 CI/CD를 자동화 해보자'
+    parent: Github-actions
+    url: /wiki/github-actions-workflow
+    updated: '2022-10-25 16:56:32 +0900'
+    children: []
 github-packages:
     type: wiki
     title: 'Github packages'
@@ -293,14 +285,6 @@ google-java-style-guide:
     parent: programming
     url: /wiki/google-java-style-guide
     updated: '2021-03-04 00:37:53 +0900'
-    children: []
-gradle-build:
-    type: wiki
-    title: 'Gradle 빌드 워크플로우'
-    summary: ""
-    parent: Github-actions
-    url: /wiki/gradle-build
-    updated: '2022-07-20 22:38:24 +0900'
     children: []
 index:
     type: wiki
@@ -333,14 +317,6 @@ jenkins-kubernetes:
     parent: Jenkins
     url: /wiki/jenkins-kubernetes
     updated: '2022-08-23 22:05:27 +0900'
-    children: []
-k8s-deployment:
-    type: wiki
-    title: 'k8s 배포 워크플로우'
-    summary: ""
-    parent: Github-actions
-    url: /wiki/k8s-deployment
-    updated: '2022-07-20 22:39:37 +0900'
     children: []
 kotlin-dsl:
     type: wiki
@@ -389,14 +365,6 @@ Programming:
     parent: index
     url: /wiki/Programming
     updated: '2020-08-29 15:24:33 +0900'
-    children: []
-reusable-workflow:
-    type: wiki
-    title: '재사용 가능한 워크플로우'
-    summary: ""
-    parent: Github-actions
-    url: /wiki/reusable-workflow
-    updated: '2022-07-20 22:40:44 +0900'
     children: []
 shell:
     type: wiki
